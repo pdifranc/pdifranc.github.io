@@ -2,7 +2,7 @@
 title: "Assembling and Using a Cellular Dataset for Mobile Network Analysis and Planning"
 collection: publications
 permalink: /publication/2018-bigdata
-date: 2018
+date: 2018-12-01
 venue: 'IEEE Transactions on Big Data'
 paperurl: '/files/pdf/research/2018BigData.pdf'
 link: 'https://doi.org/10.1109/TBDATA.2017.2734100'
