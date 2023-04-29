@@ -86,12 +86,12 @@ analytics:
 author:
   name             : "Paolo Di Francesco"
   avatar           : "profile.png"
-  bio              : "Solutions Architect"
+  bio              : "Researcher, SDE, Solutions Architect"
   location         :
   employer         :
   pubmed           :
-  orcid            : "http://orcid.org/0000-0001-9259-3883"
-  googlescholar    : "https://scholar.google.com/citations?user=fiaPSmgAAAAJ"
+  orcid            : "https://orcid.org/0000-0002-1136-741X"
+  googlescholar    : "https://scholar.google.at/citations?user=ZpEaqsQAAAAJ"
   email            : "frpaolo@amazon.at"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -112,7 +112,7 @@ author:
   mastodon         : #"fosstodon.org/@jayrobw"
   pinterest        :
   soundcloud       :
-  stackoverflow    : #"https://stackoverflow.com/users/10912314/jayrobwilliams"
+  stackoverflow    : "https://stackoverflow.com/users/3506405/pdifranc"
   steam            :
   tumblr           :
   twitter          : 
