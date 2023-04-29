@@ -10,8 +10,8 @@ locale                   : "en-US"
 title                    : "Paolo Di Francesco"
 title_separator          : "-"
 name                     : &name "Paolo Di Francesco"
-description              : &description "Solutions Architect"
-url                      : https://difra84.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : &description "Researcher, SDE, Solutions Architect"
+url                      : https://www.difra84.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "pdifranc/pdifranc.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -79,7 +79,7 @@ analytics:
   google:
     tracking_id          : 
   goatcounter:
-    code		 : jayrobwilliams
+    code		 : paolodifrancesco
 
 
 # Site Author
