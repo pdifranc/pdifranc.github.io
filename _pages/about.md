@@ -7,6 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+*WIP*
 
 Welcome! During the course of my career, I have worked in several roles,
 always in the tech sector. During these years, I have had the luck and
