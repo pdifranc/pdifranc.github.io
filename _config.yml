@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Paolo Di Francesco"
 title_separator          : "-"
 name                     : &name "Paolo Di Francesco"
-description              : &description "Researcher, SDE, Solutions Architect"
+description              : &description "Researcher, SDE, Senior Solutions Architect"
 url                      : https://pdifranc.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "pdifranc/pdifranc.github.io"
@@ -86,7 +86,7 @@ analytics:
 author:
   name             : "Paolo Di Francesco"
   avatar           : "profile.png"
-  bio              : "Researcher, SDE, Solutions Architect"
+  bio              : "Researcher, SDE, Senior Solutions Architect"
   location         :
   employer         :
   pubmed           :
