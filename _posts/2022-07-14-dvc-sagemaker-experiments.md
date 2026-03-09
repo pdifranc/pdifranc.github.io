@@ -12,7 +12,7 @@ tags:
 ---
 Data scientists often work towards understanding the effects of various data preprocessing and feature engineering strategies in combination with different model architectures and hyperparameters. Doing so requires you to cover large parameter spaces iteratively, and it can be overwhelming to keep track of previously run configurations and results while keeping experiments reproducible.
 
-**Full text [here](https://aws.amazon.com/blogs/machine-learning/track-your-ml-experiments-end-to-end-with-data-version-control-and-amazon-sagemaker-experiments/), and code sample [here](https://github.com/aws-samples/amazon-sagemaker-experiments-dvc-demo)**
+**Full text [here](https://aws.amazon.com/blogs/machine-learning/track-your-ml-experiments-end-to-end-with-data-version-control-and-amazon-sagemaker-experiments/), and GitHub repository [here](https://github.com/aws-samples/amazon-sagemaker-experiments-dvc-demo)** ![GitHub stars](https://img.shields.io/github/stars/aws-samples/amazon-sagemaker-experiments-dvc-demo?style=social&cacheSeconds=3600)
 
 <!--more-->
 

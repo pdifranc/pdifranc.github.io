@@ -12,7 +12,7 @@ tags:
 ---
 The process of building a machine learning (ML) model is iterative until you find the candidate model that is performing well and is ready to be deployed. As data scientists iterate through that process, they need a reliable method to easily track experiments to understand how each model version was built and how it performed.
 
-**Full text [here](https://aws.amazon.com/blogs/machine-learning/organize-your-machine-learning-journey-with-amazon-sagemaker-experiments-and-amazon-sagemaker-pipelines/), and code sample [here](https://github.com/aws-samples/amazon-sagemaker-experiments-and-pipelines)**
+**Full text [here](https://aws.amazon.com/blogs/machine-learning/organize-your-machine-learning-journey-with-amazon-sagemaker-experiments-and-amazon-sagemaker-pipelines/), and GitHub repository [here](https://github.com/aws-samples/sagemaker-experiments-and-pipelines)** ![GitHub stars](https://img.shields.io/github/stars/aws-samples/sagemaker-experiments-and-pipelines?style=social&cacheSeconds=3600)
 
 <!--more-->
 
