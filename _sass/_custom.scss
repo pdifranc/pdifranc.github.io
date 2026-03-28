@@ -38,3 +38,17 @@
 .container:hover .overlay {
   opacity: 0.25;
 }
+
+/* Wider content column, sidebar shifted left */
+@include breakpoint($large) {
+  .sidebar {
+    @include span(3 of 12);
+  }
+
+  .page,
+  .archive {
+    @include span(9 of 12 last);
+    @include prefix(0 of 12);
+    @include suffix(0 of 12);
+  }
+}
