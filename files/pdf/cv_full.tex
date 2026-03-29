@@ -1,6 +1,6 @@
 \documentclass[11pt,a4paper]{article}
 \usepackage[margin=0.8in]{geometry}
-\usepackage{enumitem}
+\usepackage[nosep,leftmargin=*,label=--]{enumitem}
 \usepackage{titlesec}
 \usepackage{hyperref}
 \usepackage{xcolor}
@@ -23,12 +23,12 @@
 }
 % Primary role under a company
 \newcommand{\role}[2]{%
-  {\bfseries\itshape #1} \hfill {\color{datecolor}#2}\vspace{3pt}%
+  {\bfseries\itshape #1} \hfill {\color{datecolor}\bfseries #2}\vspace{3pt}%
 }
 % Sub-role within same company
 \newcommand{\subrole}[2]{%
   \vspace{6pt}%
-  {\bfseries\itshape #1} \hfill {\color{datecolor}#2}\vspace{3pt}%
+  {\bfseries\itshape #1} \hfill {\color{datecolor}\bfseries #2}\vspace{3pt}%
 }
 
 \begin{document}
@@ -55,18 +55,24 @@
 \role{Senior Solutions Architect}{Jul 2022 -- Present}
 \begin{itemize}[nosep,leftmargin=*]
 \item Design and implement cloud-based solutions for customers across industries, with focus on MLOps, DevOps, and Generative AI.
-\item Published 6 technical blog posts on the \href{https://aws.amazon.com/blogs/machine-learning/author/frpaolo/}{AWS Machine Learning Blog}, covering MLflow, SageMaker Pipelines, FMEval, Generative AI Gateway, and MLOps best practices.
-\item Developed public workshops used by AWS field teams worldwide:
+\item Published 6 technical blog posts on the \href{https://aws.amazon.com/blogs/machine-learning/author/frpaolo/}{AWS Machine Learning Blog} (41K+ views), some of which directly influenced the development of new AWS managed services.
+\item Contributed code to open-source projects including \href{https://github.com/mlflow/mlflow/pull/7044}{MLflow} (13K+ stars) and the \href{https://github.com/aws/sagemaker-python-sdk/pull/5525}{Amazon SageMaker Python SDK} (2K+ stars).
+\item Developed public workshops used by AWS field teams worldwide and delivered to thousands of customers:
   \begin{itemize}[nosep]
-    \item \href{https://sagemaker-immersionday.workshop.aws/}{Amazon SageMaker Immersion Day} (\href{https://github.com/aws-samples/amazon-sagemaker-immersion-day}{GitHub}) \quad
-    \href{https://catalog.workshops.aws/mlops-from-idea-to-production}{MLOps: from idea to production in six steps} (\href{https://github.com/aws-samples/amazon-sagemaker-from-idea-to-production}{GitHub})
+    \item \href{https://sagemaker-immersionday.workshop.aws/}{Amazon SageMaker Immersion Day} (\href{https://github.com/aws-samples/amazon-sagemaker-immersion-day}{GitHub})
+    \item \href{https://catalog.workshops.aws/mlops-from-idea-to-production}{MLOps: from idea to production in six steps} (\href{https://github.com/aws-samples/amazon-sagemaker-from-idea-to-production}{GitHub})
   \end{itemize}
-\item Public speaker at AWS Summit Zurich 2024 and AWS Cloud Day Zurich 2023.
+\item Contributed to the launch of a new AWS managed service through technical deep dives with the service team, POCs, and customer onboarding.
+\item Facilitated multi-day hackathons and innovation events for enterprise customers, with projects going to production.
+\item Delivered presentations to audiences of 200+ at AWS Summits, Cloud Days, meetups, and university conferences in English, Italian, and German.
+\item Mentored and onboarded fellow Solutions Architects; contributed to building the local AI/ML community in Austria.
 \end{itemize}
 
 \subrole{Solutions Architect}{2020 -- Jul 2022}
 \begin{itemize}[nosep,leftmargin=*]
-\item Helped customers across startups, SMBs, and enterprises adopt AWS services and design scalable cloud architectures. Delivered technical workshops, architecture reviews, and proof-of-concept engagements.
+\item Helped customers across startups, SMBs, and enterprises adopt AWS services and design scalable cloud architectures.
+\item Led cloud migration and adoption programs, including multi-account landing zone setups and cost optimization.
+\item Delivered immersion days and architecture reviews across industries including manufacturing, media, energy, and technology.
 \end{itemize}
 
 \bigskip
@@ -92,7 +98,7 @@
 \company{Trinity College Dublin}{Dublin, Ireland}
 \role{Postdoctoral Researcher}{Sep 2015 -- Mar 2016}
 \begin{itemize}[nosep,leftmargin=*]
-\item Contributed to the \href{http://www.wishful-project.eu/}{WiSHFUL} EU Horizon 2020 project, developing frontend/backend for remote access to the TCD wireless testbed. Designed a web-based resource management and monitoring system.
+\item Contributed to the \href{https://www.fed4fire.eu/}{Fed4FIRE} EU FP7 project, developing frontend/backend for remote access to the TCD wireless testbed. Designed a web-based resource management and monitoring system.
 \end{itemize}
 
 \subrole{Teaching Assistant}{Sep 2012 -- May 2015}
@@ -117,7 +123,7 @@
 \company{TU Wien}{Vienna, Austria}
 \role{External Lecturer -- AI and Generative AI module}{Mar 2023 -- Present}
 \begin{itemize}[nosep,leftmargin=*]
-\item Lecturing for the \href{https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=192035}{Project Course on Cloud Computing (192.035)}, covering foundation models, prompt engineering, RAG, and building AI-powered applications on the cloud.
+\item Lecturing for the \href{https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=192035}{Project Course on Cloud Computing (192.035)}, covering foundation models, prompt engineering, RAG, and building AI-powered applications on the cloud. Multiple cohorts of graduates.
 \end{itemize}
 
 \section{Education}
@@ -144,6 +150,7 @@ Italian (native) \quad English (fluent) \quad German (basic)
 \section{Awards \& Certifications}
 
 \begin{itemize}[nosep,leftmargin=*]
+\item \textbf{Invent \& Simplify Award} (2022) -- recognized by the AWS Solutions Architecture community for contributions to MLOps and open-source
 \item Member of the winning team at the \textbf{IEEE DySPAN 5G Spectrum Challenge 2015}
 \item AWS Certified Machine Learning -- Specialty (2021) \quad AWS Certified Solutions Architect -- Professional (2021)
 \end{itemize}
@@ -151,8 +158,12 @@ Italian (native) \quad English (fluent) \quad German (basic)
 \section{Public Speaking}
 
 \begin{itemize}[nosep,leftmargin=*]
+\item ``FMOps/LLMOps -- Managing the Generative AI Lifecycle on AWS'' -- University of Applied Sciences Burgenland, Mar 2025
 \item ``Accelerate FM pre-training on Amazon SageMaker HyperPod'' -- AWS Summit Zurich, Sep 2024
+\item ``LLMOps and FMOps -- Evaluating and Operating Foundation Models'' -- AWS Builder Stream, Vienna, Mar 2024
 \item ``Productionize ML workloads using Amazon SageMaker MLOps'' -- AWS Cloud Day Zurich, Sep 2023
+\item ``Foundation Model Hosting and RAG on AWS'' -- Vienna Data Science Tools Meetup, Aug 2023
+\item ``MLOps -- Automazione per il Machine Learning'' -- AWS Italy Podcast, Oct 2022
 \end{itemize}
 
 \section{Selected Publications}

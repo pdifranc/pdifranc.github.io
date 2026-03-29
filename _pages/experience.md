@@ -11,16 +11,18 @@ excerpt: "Professional experience of Paolo Di Francesco — AWS Solutions Archit
 **Senior Solutions Architect** · Vienna, Austria · July 2022 – Present
 {: .notice}
 
-Designing and implementing cloud-based solutions for customers across the full spectrum — from startups and small-to-medium businesses to large enterprises and public sector organizations, including universities. Focused on Machine Learning Operations (MLOps), DevOps, and Generative AI, leading numerous projects involving the deployment of machine learning models in production. Published 6 technical blog posts on the [AWS Machine Learning Blog](https://aws.amazon.com/blogs/machine-learning/author/frpaolo/). Public speaker at AWS Summit Zurich 2024 and AWS Cloud Day Zurich 2023.
+Designing and implementing cloud-based solutions for customers across the full spectrum — from startups and small-to-medium businesses to large enterprises and public sector organizations, including universities. Focused on Machine Learning Operations (MLOps), DevOps, and Generative AI, leading numerous projects involving the deployment of machine learning models in production.
 
-Developed public workshops used by AWS field teams worldwide:
-- [Amazon SageMaker Immersion Day](https://sagemaker-immersionday.workshop.aws/) — entry-level hands-on workshop covering end-to-end ML on SageMaker ([GitHub repository](https://github.com/aws-samples/amazon-sagemaker-immersion-day)) ![GitHub stars](https://img.shields.io/github/stars/aws-samples/amazon-sagemaker-immersion-day?style=social&cacheSeconds=3600)
-- [Amazon SageMaker MLOps: from idea to production in six steps](https://catalog.workshops.aws/mlops-from-idea-to-production) — advanced workshop on SageMaker Pipelines, Feature Store, Model Registry, MLflow, and Model Monitor ([GitHub repository](https://github.com/aws-samples/amazon-sagemaker-from-idea-to-production)) ![GitHub stars](https://img.shields.io/github/stars/aws-samples/amazon-sagemaker-from-idea-to-production?style=social&cacheSeconds=3600)
+I have published 6 technical blog posts on the [AWS Machine Learning Blog](https://aws.amazon.com/blogs/machine-learning/author/frpaolo/), some of which directly influenced the development of new AWS managed services. I am also an active open-source contributor, with merged contributions to [MLflow](https://github.com/mlflow/mlflow/pull/7044) (13K+ stars) and the [Amazon SageMaker Python SDK](https://github.com/aws/sagemaker-python-sdk/pull/5525) (2K+ stars).
+
+I developed two public workshops used by AWS field teams worldwide and delivered to thousands of customers: [Amazon SageMaker Immersion Day](https://sagemaker-immersionday.workshop.aws/) ([GitHub](https://github.com/aws-samples/amazon-sagemaker-immersion-day)) ![GitHub stars](https://img.shields.io/github/stars/aws-samples/amazon-sagemaker-immersion-day?style=social&cacheSeconds=3600) and [Amazon SageMaker MLOps: from idea to production in six steps](https://catalog.workshops.aws/mlops-from-idea-to-production) ([GitHub](https://github.com/aws-samples/amazon-sagemaker-from-idea-to-production)) ![GitHub stars](https://img.shields.io/github/stars/aws-samples/amazon-sagemaker-from-idea-to-production?style=social&cacheSeconds=3600).
+
+Beyond content creation, I regularly facilitate multi-day hackathons and innovation events for enterprise customers, resulting in projects going to production. I am a frequent public speaker at AWS Summits, Cloud Days, meetups, and university conferences across Europe (see [Talks](/talks/)), and I mentor and onboard fellow Solutions Architects while contributing to building the local AI/ML technical community in Austria.
 
 **Solutions Architect** · Vienna, Austria · 2020 – July 2022
 {: .notice}
 
-Onboarded as Solutions Architect, helping customers across startups, SMBs, and enterprises adopt AWS services and design scalable cloud architectures. Delivered technical workshops, architecture reviews, and proof-of-concept engagements.
+Helped customers across startups, SMBs, and enterprises adopt AWS services and design scalable cloud architectures. Delivered technical workshops, architecture reviews, and proof-of-concept engagements. Led cloud migration and adoption programs, including multi-account landing zone setups and cost optimization initiatives across diverse industries.
 
 ---
 
@@ -46,7 +48,7 @@ Joined as a software developer, implementing new features according to stakehold
 **Postdoctoral Researcher** · Dublin, Ireland · September 2015 – March 2016
 {: .notice}
 
-Contributed to the [WiSHFUL](http://www.wishful-project.eu/) EU Horizon 2020 project, developing the frontend and backend to enable remote access to the Trinity College Dublin wireless testbed. Designed and implemented a web-based resource management and monitoring system with automated resource assignment.
+Contributed to the [Fed4FIRE](https://www.fed4fire.eu/) EU FP7 project, developing the frontend and backend to enable remote access to the Trinity College Dublin wireless testbed. Designed and implemented a web-based resource management and monitoring system with automated resource assignment.
 
 **Teaching Assistant** · Dublin, Ireland · September 2012 – May 2015
 {: .notice}
@@ -71,7 +73,7 @@ Collected and maintained large datasets of anonymized call detail records for O2
 ## Education
 
 **Ph.D. in Electronic & Electrical Engineering** · Trinity College Dublin · 2011 – 2016
-: Thesis: "On the Effects of Resource Sharing on Mobile Network Deployment Decisions"
+: Thesis: ["On the Effects of Resource Sharing on Mobile Network Deployment Decisions"](/files/pdf/research/thesis_difrancesco.pdf)
 : Focus: Algorithm Design, Mathematical Modeling, Linear Optimization, Game Theory, Data Analysis
 
 **M.Sc in Telecommunications Engineering** · University of Bologna · 2008 – 2011
@@ -83,6 +85,7 @@ Collected and maintained large datasets of anonymized call detail records for O2
 ## Awards
 
 - 🏆 Member of the winning team at the **IEEE DySPAN 5G Spectrum Challenge 2015**
+- 🏆 **Invent & Simplify Award** (2022) — recognized by the AWS Solutions Architecture community for contributions to MLOps and open-source
 
 ---
 
