@@ -7,8 +7,6 @@ author_profile: true
 
 ## Amazon Web Services (AWS)
 
-> A Solutions Architect at AWS acts as a trusted technical advisor to customers, bridging the gap between complex business challenges and cloud-based solutions. The role involves working closely with customers to understand their goals, designing scalable, secure, and cost-effective architectures on AWS, and guiding them through cloud adoption and migration strategies. Beyond technical design, Solutions Architects advocate for best practices across security, reliability, and performance, while staying at the forefront of emerging technologies to help customers innovate faster. It is a role that blends deep technical expertise with strong communication skills — translating business needs into architectural blueprints and empowering teams to build with confidence on the cloud.
-
 **Senior Solutions Architect** · Vienna, Austria · July 2022 – Present
 {: .notice}
 

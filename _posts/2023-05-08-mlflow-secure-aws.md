@@ -1,11 +1,5 @@
 ---
 title: Secure MLflow in AWS Fine-grained access control with AWS native services
-output:
-  md_document:
-    variant: gfm+footnotes
-    preserve_yaml: TRUE
-knit: (function(inputFile, encoding) {
-  rmarkdown::render(inputFile, encoding = encoding, output_dir = "../_posts") })
 date: 2023-05-08
 permalink: /posts/2023/05/secure-mlflow-aws
 excerpt_separator: <!--more-->
