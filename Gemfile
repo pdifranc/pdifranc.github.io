@@ -9,6 +9,7 @@ group :jekyll_plugins do
   gem "jekyll-gist"
   gem "jekyll-redirect-from"
   gem "jemoji"
+  gem "faraday-retry"
 end
 
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
