@@ -12,7 +12,7 @@ author_profile: true
 **Senior Solutions Architect** · Vienna, Austria · July 2022 – Present
 {: .notice}
 
-Designing and implementing cloud-based solutions for customers across different segments and industries. Focused on Machine Learning Operations (MLOps) and DevOps, leading numerous projects involving the deployment of machine learning models in production. Published multiple technical blog posts on the [AWS Machine Learning Blog](https://aws.amazon.com/blogs/machine-learning/author/frpaolo/). Public speaker at AWS Summit Zurich 2024 and AWS Cloud Day Zurich 2023.
+Designing and implementing cloud-based solutions for customers across the full spectrum — from startups and small-to-medium businesses to large enterprises and public sector organizations, including universities. Focused on Machine Learning Operations (MLOps) and DevOps, leading numerous projects involving the deployment of machine learning models in production. Published multiple technical blog posts on the [AWS Machine Learning Blog](https://aws.amazon.com/blogs/machine-learning/author/frpaolo/). Public speaker at AWS Summit Zurich 2024 and AWS Cloud Day Zurich 2023.
 
 Developed public workshops used by AWS field teams worldwide:
 - [Amazon SageMaker Immersion Day](https://sagemaker-immersionday.workshop.aws/) — entry-level hands-on workshop covering end-to-end ML on SageMaker ([GitHub repository](https://github.com/aws-samples/amazon-sagemaker-immersion-day)) ![GitHub stars](https://img.shields.io/github/stars/aws-samples/amazon-sagemaker-immersion-day?style=social&cacheSeconds=3600)
