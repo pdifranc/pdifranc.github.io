@@ -1,5 +1,5 @@
 \documentclass[11pt,a4paper]{article}
-\usepackage[margin=0.7in]{geometry}
+\usepackage[margin=0.8in]{geometry}
 \usepackage{enumitem}
 \usepackage{titlesec}
 \usepackage{hyperref}
@@ -7,13 +7,29 @@
 \usepackage{fontawesome5}
 
 \definecolor{linkblue}{HTML}{0077B5}
+\definecolor{datecolor}{HTML}{555555}
+\definecolor{loccolor}{HTML}{555555}
 \hypersetup{colorlinks=true,urlcolor=linkblue}
 
-\titleformat{\section}{\large\bfseries\scshape}{}{0em}{}[\titlerule]
-\titlespacing{\section}{0pt}{8pt}{4pt}
+\titleformat{\section}{\Large\bfseries\scshape}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{14pt}{6pt}
 
 \setlength{\parindent}{0pt}
 \pagestyle{empty}
+
+% Company header: bold, slightly larger
+\newcommand{\company}[2]{%
+  {\large\bfseries #1} \hfill {\color{loccolor}#2}\\[-2pt]%
+}
+% Primary role under a company
+\newcommand{\role}[2]{%
+  {\bfseries\itshape #1} \hfill {\color{datecolor}#2}\vspace{3pt}%
+}
+% Sub-role within same company
+\newcommand{\subrole}[2]{%
+  \vspace{6pt}%
+  {\bfseries\itshape #1} \hfill {\color{datecolor}#2}\vspace{3pt}%
+}
 
 \begin{document}
 
@@ -35,8 +51,8 @@
 
 \section{Professional Experience}
 
-\textbf{Amazon Web Services (AWS)} \hfill Vienna, Austria\\
-\textit{Senior Solutions Architect} \hfill Jul 2022 -- Present
+\company{Amazon Web Services (AWS)}{Vienna, Austria}
+\role{Senior Solutions Architect}{Jul 2022 -- Present}
 \begin{itemize}[nosep,leftmargin=*]
 \item Design and implement cloud-based solutions for customers across industries, with focus on MLOps, DevOps, and Generative AI.
 \item Published 6 technical blog posts on the \href{https://aws.amazon.com/blogs/machine-learning/author/frpaolo/}{AWS Machine Learning Blog}, covering MLflow, SageMaker Pipelines, FMEval, Generative AI Gateway, and MLOps best practices.
@@ -48,59 +64,60 @@
 \item Public speaker at AWS Summit Zurich 2024 and AWS Cloud Day Zurich 2023.
 \end{itemize}
 
-\textit{Solutions Architect} \hfill 2020 -- Jul 2022
+\subrole{Solutions Architect}{2020 -- Jul 2022}
 \begin{itemize}[nosep,leftmargin=*]
 \item Helped customers across startups, SMBs, and enterprises adopt AWS services and design scalable cloud architectures. Delivered technical workshops, architecture reviews, and proof-of-concept engagements.
 \end{itemize}
 
-\medskip
-\textbf{RadarServices GmbH} \hfill Vienna, Austria\\
-\textit{Software Engineer \& Architect} \hfill Oct 2017 -- 2020
+\bigskip
+\company{RadarServices GmbH}{Vienna, Austria}
+\role{Software Engineer \& Architect}{Oct 2017 -- 2020}
 \begin{itemize}[nosep,leftmargin=*]
 \item Designed and implemented a service-oriented architecture for a cloud-based IT security monitoring product. Led the transformation of a large monolith into a modular, scalable system.
 \item Defined business processes with enterprise customers and implemented solutions according to their needs.
 \item Designed and documented REST APIs. Resolved critical performance bottlenecks to meet strict SLAs. Mentored junior developers.
 \end{itemize}
 
-\textit{Development Team Leader} \hfill Jan 2017 -- Oct 2017
+\subrole{Development Team Leader}{Jan 2017 -- Oct 2017}
 \begin{itemize}[nosep,leftmargin=*]
 \item Led a development team ensuring consistent delivery to department standards. Managed hiring and facilitated stakeholder collaboration.
 \end{itemize}
 
-\textit{Software Developer} \hfill Mar 2016 -- Dec 2016
+\subrole{Software Developer}{Mar 2016 -- Dec 2016}
 \begin{itemize}[nosep,leftmargin=*]
 \item Implemented features in a test-driven development environment with peer review.
 \end{itemize}
 
-\medskip
-\textbf{Trinity College Dublin} \hfill Dublin, Ireland\\
-\textit{Postdoctoral Researcher} \hfill Sep 2015 -- Mar 2016
+\bigskip
+\company{Trinity College Dublin}{Dublin, Ireland}
+\role{Postdoctoral Researcher}{Sep 2015 -- Mar 2016}
 \begin{itemize}[nosep,leftmargin=*]
 \item Contributed to the \href{http://www.wishful-project.eu/}{WiSHFUL} EU Horizon 2020 project, developing frontend/backend for remote access to the TCD wireless testbed. Designed a web-based resource management and monitoring system.
 \end{itemize}
 
-\textit{Teaching Assistant} \hfill Sep 2012 -- May 2015
+\subrole{Teaching Assistant}{Sep 2012 -- May 2015}
 \begin{itemize}[nosep,leftmargin=*]
 \item Taught Java programming and Fundamentals of Electrotechnics (filtering, modulation, oscilloscope usage).
 \end{itemize}
 
-\textit{Research Assistant} \hfill Mar 2010 -- Dec 2010
+\subrole{Research Assistant}{Mar 2010 -- Dec 2010}
 \begin{itemize}[nosep,leftmargin=*]
 \item Developed a split-architecture for carrier-sensing based MAC protocols on SDR platforms. Collected experimental data to analyse protocol performance in multi-hop wireless networks.
 \end{itemize}
 
-\medskip
-\textbf{O2 Ireland \& Trinity College Dublin} \hfill Dublin, Ireland\\
-\textit{Data Analyst} (university-enterprise collaboration) \hfill Sep 2013 -- Sep 2014
+\bigskip
+\company{O2 Ireland \& Trinity College Dublin}{Dublin, Ireland}
+\role{Data Analyst \normalfont{(university-enterprise collaboration)}}{Sep 2013 -- Sep 2014}
 \begin{itemize}[nosep,leftmargin=*]
 \item Collected and maintained large datasets of anonymized call detail records. Analysed spatio-temporal dynamics in cellular traffic demand to inform network planning research.
 \end{itemize}
 
 \section{Teaching}
 
-\textbf{TU Wien} -- External Lecturer \hfill Mar 2023 -- Present
+\company{TU Wien}{Vienna, Austria}
+\role{External Lecturer -- AI and Generative AI module}{Mar 2023 -- Present}
 \begin{itemize}[nosep,leftmargin=*]
-\item Lecturing the AI and Generative AI module for the \href{https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=192035}{Project Course on Cloud Computing (192.035)}.
+\item Lecturing for the \href{https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=192035}{Project Course on Cloud Computing (192.035)}, covering foundation models, prompt engineering, RAG, and building AI-powered applications on the cloud.
 \end{itemize}
 
 \section{Education}
@@ -112,6 +129,17 @@ Thesis: ``On the Effects of Resource Sharing on Mobile Network Deployment Decisi
 \medskip
 \textbf{M.Sc in Telecommunications Engineering} \hfill University of Bologna, 2008 -- 2011\\
 \textbf{B.Sc in Telecommunications Engineering} \hfill University of Bologna, 2004 -- 2008
+
+\section{Technical Skills}
+
+\textbf{Cloud \& AI/ML:} Amazon SageMaker AI, Amazon Bedrock, AWS Lambda, Amazon API Gateway, AWS CDK, AWS CloudFormation, Amazon ECS, MLflow, Docker, MLOps\\
+\textbf{Programming:} Python, Java, JavaScript, Ruby, C/C++, MATLAB\\
+\textbf{Frameworks \& Tools:} Ruby on Rails, CDK, Git, LaTeX, GNU Radio, Gurobi\\
+\textbf{Databases:} PostgreSQL, MySQL
+
+\section{Languages}
+
+Italian (native) \quad English (fluent) \quad German (basic)
 
 \section{Awards \& Certifications}
 
@@ -144,16 +172,5 @@ Thesis: ``On the Effects of Resource Sharing on Mobile Network Deployment Decisi
 \item A. Puschmann, P. Di Francesco et al., ``Enhancing the Performance of Random Access MAC Protocols for Low-cost SDRs,'' \textit{ACM WiNTECH}, 2013.
 \item P. Di Francesco et al., ``A Split Architecture for Random Access MAC for SDR Platforms,'' \textit{CROWNCOM}, 2013.
 \end{itemize}
-
-\section{Technical Skills}
-
-\textbf{Cloud \& AI/ML:} Amazon SageMaker AI, Amazon Bedrock, AWS Lambda, Amazon API Gateway, AWS CDK, AWS CloudFormation, Amazon ECS, MLflow, Docker, MLOps\\
-\textbf{Programming:} Python, Java, JavaScript, Ruby, C/C++, MATLAB\\
-\textbf{Frameworks \& Tools:} Ruby on Rails, CDK, Git, LaTeX, GNU Radio, Gurobi\\
-\textbf{Databases:} PostgreSQL, MySQL
-
-\section{Languages}
-
-Italian (native) \quad English (fluent) \quad German (basic)
 
 \end{document}
