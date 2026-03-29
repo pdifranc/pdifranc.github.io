@@ -3,6 +3,7 @@ layout: archive
 title: "Professional Experience"
 permalink: /experience/
 author_profile: true
+excerpt: "Professional experience of Paolo Di Francesco — AWS Solutions Architect, cybersecurity, and academic research."
 ---
 
 ## Amazon Web Services (AWS)

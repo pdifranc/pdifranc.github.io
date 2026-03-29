@@ -2,6 +2,7 @@
 permalink: /teaching/
 title: "Teaching"
 author_profile: true
+excerpt: "Teaching experience — TU Wien external lecturer and Trinity College Dublin teaching assistant."
 ---
 
 ## TU Wien — External Lecturer

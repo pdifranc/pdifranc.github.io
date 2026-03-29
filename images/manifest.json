@@ -1,11 +1,20 @@
 {
-	"name": "Paolo Di Francesco",
-	"icons": [
-		{
-			"src": "\/images\/android-chrome-192x192.png?v=M44lzPylqQ",
-			"sizes": "192x192",
-			"type": "image\/png",
-			"density": 4
-		}
-	]
+  "name": "Paolo Di Francesco",
+  "short_name": "P. Di Francesco",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0077B5",
+  "icons": [
+    {
+      "src": "/images/android-chrome-192x192.png?v=20260329",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/android-chrome-512x512.png?v=20260329",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
