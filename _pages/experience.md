@@ -24,7 +24,7 @@ Onboarded as Solutions Architect, helping customers adopt AWS services and desig
 
 ---
 
-## Cybersecurity Industry
+## RadarServices GmbH
 **Software Engineer & Architect** · Vienna, Austria · October 2017 – 2020
 {: .notice}
 
@@ -72,6 +72,7 @@ Collected and maintained large datasets of anonymized call detail records for O2
 
 **Ph.D. in Electronic & Electrical Engineering** · Trinity College Dublin · 2011 – 2016
 : Thesis: "On the Effects of Resource Sharing on Mobile Network Deployment Decisions"
+: Focus: Algorithm Design, Mathematical Modeling, Linear Optimization, Game Theory, Data Analysis
 
 **M.Sc in Telecommunications Engineering** · University of Bologna · 2008 – 2011
 
