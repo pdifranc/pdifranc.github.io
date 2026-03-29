@@ -72,7 +72,9 @@ Collected and maintained large datasets of anonymized call detail records for O2
 **Ph.D. in Electronic & Electrical Engineering** · Trinity College Dublin · 2011 – 2016
 : Thesis: "On the Effects of Resource Sharing on Mobile Network Deployment Decisions"
 
-**B.Sc and M.Sc in Telecommunications Engineering** · University of Bologna · 2008 – 2011
+**M.Sc in Telecommunications Engineering** · University of Bologna · 2008 – 2011
+
+**B.Sc in Telecommunications Engineering** · University of Bologna · 2004 – 2008
 
 ---
 
@@ -86,6 +88,3 @@ Collected and maintained large datasets of anonymized call detail records for O2
 
 - AWS Certified Machine Learning – Specialty (2021)
 - AWS Certified Solutions Architect – Professional (2021)
-- AWS SysOps Administrator – Associate (2020)
-- AWS Developer – Associate (2020)
-- AWS Solutions Architect – Associate (2020)
