@@ -6,6 +6,9 @@ permalink: /talks/2022-aws-italy-podcast
 venue: "AWS Italy Podcast"
 date: 2022-10-01
 location: "Online"
+tags:
+  - mlops
+  - sagemaker
 ---
 
 Recorded a 40-minute podcast episode on MLOps with Alex Casalboni for the official AWS Italy Podcast, discussing automation strategies for machine learning workflows, SageMaker Pipelines, experiment tracking, and best practices for production ML systems.

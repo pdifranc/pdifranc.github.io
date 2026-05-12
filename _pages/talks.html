@@ -3,14 +3,27 @@ layout: archive
 title: "Talks and presentations"
 permalink: /talks/
 author_profile: true
+excerpt: "Conference talks, meetups, workshops, and podcasts by Paolo Di Francesco on MLOps, Generative AI, and cloud architecture."
 ---
 
 {% if site.talkmap_link == true %}
-
 <p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
 {% endif %}
 
+<div class="filter-bar" id="talk-filters">
+  <button class="filter-btn active" data-filter="all">All</button>
+  <button class="filter-btn" data-filter="mlops">MLOps</button>
+  <button class="filter-btn" data-filter="generative-ai">Generative AI</button>
+  <button class="filter-btn" data-filter="foundation-models">Foundation Models</button>
+  <button class="filter-btn" data-filter="sagemaker">SageMaker</button>
+  <button class="filter-btn" data-filter="mlflow">MLflow</button>
+  <button class="filter-btn" data-filter="deepracer">DeepRacer</button>
+</div>
+
+<div id="filterable-list">
 {% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+  <div class="filterable-item" data-tags="{{ post.tags | join: ',' }}">
+    {% include archive-single-talk.html %}
+  </div>
 {% endfor %}
+</div>

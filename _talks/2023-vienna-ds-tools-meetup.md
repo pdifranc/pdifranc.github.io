@@ -6,6 +6,9 @@ permalink: /talks/2023-vienna-ds-tools-meetup
 venue: "Vienna Data Science Tools Meetup"
 date: 2023-08-24
 location: "Vienna, Austria"
+tags:
+  - foundation-models
+  - generative-ai
 ---
 
 Presented on foundation model hosting options and demonstrated a Retrieval-Augmented Generation (RAG) application at the Vienna Data Science Tools Meetup, with approximately 60 attendees from the local data science community.

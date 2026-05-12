@@ -14,8 +14,8 @@ $indent-var                 : 1.3em;
 
 /* system typefaces */
 $serif                      : Georgia, Times, serif;
-$sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-$monospace                  : Monaco, Consolas, "Lucida Console", monospace;
+$sans-serif                 : "Inter", -apple-system, "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+$monospace                  : "JetBrains Mono", Monaco, Consolas, "Lucida Console", monospace;
 
 /* sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
@@ -61,11 +61,11 @@ $code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray;
 $border-color               : $lighter-gray;
 
-$primary-color              : #7a8288;
+$primary-color              : #0ea5e9;
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
-$info-color                 : #2979ab;
+$info-color                 : #0ea5e9;
 
 /* brands */
 $behance-color              : #1769FF;
@@ -94,11 +94,11 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : $info-color;
-$link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#fff, $link-color, 25%);
-$masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#fff, $link-color, 25%);
+$link-color                 : #0ea5e9;
+$link-color-hover           : mix(#000, $link-color, 20%);
+$link-color-visited         : mix(#fff, $link-color, 15%);
+$masthead-link-color        : $dark-gray;
+$masthead-link-color-hover  : $link-color;
 
 
 /*

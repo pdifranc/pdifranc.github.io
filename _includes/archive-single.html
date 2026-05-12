@@ -22,7 +22,7 @@
           {% else %}
             "{{ teaser | prepend: "/images/" | prepend: base_path }}"
           {% endif %}
-          alt="">
+          alt="" loading="lazy">
       </div>
     {% endif %}
 
@@ -88,7 +88,9 @@
         </a>
       </p>
     {% elsif post.excerpt and site.read_more != 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+    {% capture raw_excerpt %}{{ post.excerpt | markdownify }}{% endcapture %}
+    {% assign clean_excerpt = raw_excerpt | strip_html | strip_newlines | truncate: 300 %}
+    <p class="archive__item-excerpt" itemprop="description">{{ clean_excerpt }}</p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
       <p class="archive__item-excerpt" itemprop="description">
         <p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}

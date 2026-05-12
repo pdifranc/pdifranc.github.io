@@ -87,7 +87,23 @@
   <meta property="og:image" content="{% if page.header.og_image contains "://" %}{{ page.header.og_image }}{% else %}{{ page.header.og_image | prepend: "/images/" | prepend: base_path }}{% endif %}">
 {% elsif page.header.overlay_image %}
   <meta property="og:image" content="{% if page.header.overlay_image contains "://" %}{{ page.header.overlay_image }}{% else %}{{ page.header.overlay_image | prepend: "/images/" | prepend: base_path }}{% endif %}">
+{% elsif site.og_image %}
+  <meta property="og:image" content="{{ site.og_image | prepend: "/images/" | prepend: base_path }}">
 {% endif %}
+
+{% unless site.twitter.username %}
+  {% if page.header.og_image %}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="{% if page.header.og_image contains "://" %}{{ page.header.og_image }}{% else %}{{ page.header.og_image | prepend: "/images/" | prepend: base_path }}{% endif %}">
+  {% elsif site.og_image %}
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="{{ site.og_image | prepend: "/images/" | prepend: base_path }}">
+  {% endif %}
+  <meta name="twitter:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
+  {% if seo_description %}
+    <meta name="twitter:description" content="{{ seo_description }}">
+  {% endif %}
+{% endunless %}
 
 {% if page.date %}
   <meta property="og:type" content="article">

@@ -59,6 +59,10 @@
     font-size: 1em;
   }
 
+  dd, dt {
+    font-size: 1em;
+  }
+
   /* paragraph indents */
   p {
     margin: 0 0 $indent-var;
@@ -93,7 +97,7 @@
   dd {
     margin-left: 1em;
     font-family: $sans-serif;
-    font-size: $type-size-6;
+    font-size: 1em;
   }
 
   .small {
