@@ -225,6 +225,8 @@
   margin-bottom: 2em;
   position: relative;
   overflow: hidden;
+  isolation: isolate;
+  z-index: 0;
 
   @media (max-width: 767px) {
     padding: 1.6em 1.2em;
@@ -379,6 +381,18 @@
     line-height: 1.4;
     margin-bottom: 0.4em;
   }
+}
+
+/* Ensure the mobile "Links" dropdown sits above the hero / page content */
+.author__urls-wrapper {
+  position: relative;
+  z-index: 30;
+}
+
+.author__urls {
+  z-index: 30 !important;
+  background: var(--bg) !important;
+  border-color: var(--border) !important;
 }
 
 @include breakpoint($large) {
