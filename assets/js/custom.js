@@ -33,7 +33,7 @@
     'Senior Solutions Architect at AWS',
     'MLOps & Generative AI',
     'Open Source Contributor',
-    'Public Speaker & Lecturer',
+    'Speaker & Lecturer',
     'Agentic AI Enthusiast'
   ];
   var roleIdx = 0, charIdx = 0, deleting = false;
@@ -112,10 +112,14 @@
   var canvas = document.getElementById('particle-canvas');
   if (!canvas) return;
 
+  var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)');
+  if (reduceMotion && reduceMotion.matches) return;
+
   var ctx = canvas.getContext('2d');
   var particles = [];
   var count = 40;
   var maxDist = 120;
+  var rafId = null;
 
   function resize() {
     var rect = canvas.parentElement.getBoundingClientRect();
@@ -169,11 +173,33 @@
         }
       }
     }
-    requestAnimationFrame(draw);
+    rafId = requestAnimationFrame(draw);
   }
 
+  function start() { if (rafId === null) rafId = requestAnimationFrame(draw); }
+  function stop() { if (rafId !== null) { cancelAnimationFrame(rafId); rafId = null; } }
+
   init();
-  draw();
+  start();
+
   window.addEventListener('resize', function() { resize(); });
+
+  // Pause when tab is hidden
+  document.addEventListener('visibilitychange', function() {
+    if (document.hidden) stop(); else start();
+  });
+
+  // Pause when canvas scrolls out of view
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function(entries) {
+      entries.forEach(function(e) { e.isIntersecting ? start() : stop(); });
+    });
+    io.observe(canvas);
+  }
+
+  // React to runtime motion-preference changes
+  if (reduceMotion && reduceMotion.addEventListener) {
+    reduceMotion.addEventListener('change', function(e) { e.matches ? stop() : start(); });
+  }
 })();
 
