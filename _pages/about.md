@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "About me"
-excerpt: "Paolo Di Francesco — Senior Solutions Architect at AWS, focused on MLOps, Generative AI, and Agentic AI. Speaker, lecturer, and open-source contributor."
+excerpt: "Paolo Di Francesco — Senior Solutions Architect at AWS in Vienna. MLOps, Generative AI, and the unglamorous parts of getting ML into production."
 author_profile: true
 redirect_from: 
   - /about/
@@ -20,88 +20,42 @@ hide_title: true
     </p>
     <div class="hero-cta">
       <a href="/experience/" class="btn btn--primary btn--large">My Experience</a>
-      <a href="/posts/" class="btn btn--outline btn--large">Read My Blog</a>
+      <a href="/posts/" class="btn btn--outline btn--large">Read My Writing</a>
     </div>
   </div>
 </div>
 
-I am a Senior Solutions Architect at [Amazon Web Services (AWS)](https://aws.amazon.com/) in Vienna, Austria. I help customers design and run cloud-based systems with a focus on Machine Learning Operations (MLOps), DevOps, and Generative AI. My current interest is **Agentic AI** — how foundation models, tool use, and orchestration are reshaping the way we build software and architect systems on the cloud.
+I'm a Senior Solutions Architect at [Amazon Web Services](https://aws.amazon.com/) in Vienna. I help teams get machine learning out of notebooks and into production, which mostly means the unglamorous parts: pipelines, versioning, access control, and the seams between tools. Lately much of my time goes to generative and **agentic AI**, and to a question I find genuinely hard: how do foundation models and tool use change the way we should architect systems?
+
+One pattern from years of customer work: most MLOps failures aren't modeling problems. They're lineage, versioning, and access-control problems. That conviction is why I keep ending up in [MLflow's codebase](/opensource/), and why my <a href="https://aws.amazon.com/blogs/machine-learning/author/frpaolo/">writing</a> tends toward the plumbing rather than the models.
 
 <div class="focus-grid">
   <div class="focus-card">
     <div class="focus-card__icon"><i class="fas fa-cube"></i></div>
     <h3 class="focus-card__title">Build</h3>
-    <p class="focus-card__body">Designing cloud architectures and ML systems with AWS customers — from startups to enterprises — across MLOps, DevOps, and Generative AI.</p>
+    <p class="focus-card__body">Cloud and ML architectures with AWS customers, from startups to enterprises. Architecture reviews, proofs of concept, and hackathons that end in production systems.</p>
     <a class="focus-card__link focus-card__link--stretched" href="/experience/">Experience &rarr;</a>
   </div>
   <div class="focus-card">
     <div class="focus-card__icon"><i class="fas fa-chalkboard-teacher"></i></div>
     <h3 class="focus-card__title">Teach</h3>
-    <p class="focus-card__body">External lecturer at <a class="focus-card__inline" href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=192035">TU Wien</a> on AI &amp; Generative AI, plus public workshops used by AWS field teams worldwide.</p>
-    <a class="focus-card__link focus-card__link--stretched" href="/teaching/">Teaching &rarr;</a>
+    <p class="focus-card__body">External lecturer at <a class="focus-card__inline" href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=192035">TU Wien</a> on AI &amp; Generative AI, and author of public workshops that AWS field teams run worldwide.</p>
+    <a class="focus-card__link focus-card__link--stretched" href="/talks/">Speaking &amp; Teaching &rarr;</a>
   </div>
   <div class="focus-card">
     <div class="focus-card__icon"><i class="fas fa-pen-nib"></i></div>
     <h3 class="focus-card__title">Write &amp; Speak</h3>
     <p class="focus-card__body">7 posts on the <a class="focus-card__inline" href="https://aws.amazon.com/blogs/machine-learning/author/frpaolo/">AWS ML Blog</a> (54K+ views) and talks at AWS Summits, Cloud Days, and meetups across Europe.</p>
-    <a class="focus-card__link focus-card__link--stretched" href="/posts/">Blog &rarr;</a>
+    <a class="focus-card__link focus-card__link--stretched" href="/posts/">Writing &rarr;</a>
   </div>
 </div>
 
 ## Open Source
 
-Selected upstream contributions and workshops I've authored or co-authored. Stars are live.
+Merged pull requests in [MLflow](https://github.com/mlflow/mlflow) (SigV4 authentication, SageMaker container builds) and the [SageMaker Python SDK](https://github.com/aws/sagemaker-python-sdk), plus two public workshops delivered to thousands of customers. Every one of them started as a real problem in a customer engagement.
 
-<div class="oss-grid">
-  <div class="oss-card">
-    <div class="oss-card__head">
-      <span class="oss-card__repo">mlflow/mlflow</span>
-      <span class="oss-card__stars"><img src="https://img.shields.io/github/stars/mlflow/mlflow?style=social&cacheSeconds=3600" alt="GitHub stars"></span>
-    </div>
-    <p class="oss-card__desc">Added AWS SigV4 request signing to the MLflow client via <code>MLFLOW_TRACKING_AWS_SIGV4</code>, enabling MLflow tracking servers to sit behind Amazon API Gateway with IAM authentication.</p>
-    <span class="oss-card__tag">Pull Request</span>
-    <a class="oss-card__stretched" href="https://github.com/mlflow/mlflow/pull/7044" aria-label="View PR on GitHub"></a>
-  </div>
-  <div class="oss-card">
-    <div class="oss-card__head">
-      <span class="oss-card__repo">mlflow/mlflow</span>
-      <span class="oss-card__stars"><img src="https://img.shields.io/github/stars/mlflow/mlflow?style=social&cacheSeconds=3600" alt="GitHub stars"></span>
-    </div>
-    <p class="oss-card__desc">Unblocked <code>mlflow sagemaker build-and-push-container</code> in SageMaker JupyterLab: added a <code>--network</code> flag for the restricted <code>sagemaker</code> network, plus a Docker CLI fallback for environments where the Python SDK can't reach the proxy socket.</p>
-    <span class="oss-card__tag">Pull Request</span>
-    <a class="oss-card__stretched" href="https://github.com/mlflow/mlflow/pull/22996" aria-label="View PR on GitHub"></a>
-  </div>
-  <div class="oss-card">
-    <div class="oss-card__head">
-      <span class="oss-card__repo">aws/sagemaker-python-sdk</span>
-      <span class="oss-card__stars"><img src="https://img.shields.io/github/stars/aws/sagemaker-python-sdk?style=social&cacheSeconds=3600" alt="GitHub stars"></span>
-    </div>
-    <p class="oss-card__desc">Added an example notebook demonstrating Inference Pipelines in SageMaker V3, using <code>ModelBuilder</code> and the new <code>sagemaker.core</code> components.</p>
-    <span class="oss-card__tag">Pull Request</span>
-    <a class="oss-card__stretched" href="https://github.com/aws/sagemaker-python-sdk/pull/5525" aria-label="View PR on GitHub"></a>
-  </div>
-  <div class="oss-card">
-    <div class="oss-card__head">
-      <span class="oss-card__repo">aws-samples/amazon-sagemaker-from-idea-to-production</span>
-      <span class="oss-card__stars"><img src="https://img.shields.io/github/stars/aws-samples/amazon-sagemaker-from-idea-to-production?style=social&cacheSeconds=3600" alt="GitHub stars"></span>
-    </div>
-    <p class="oss-card__desc">Workshop: <a class="oss-card__inline" href="https://catalog.workshops.aws/mlops-from-idea-to-production">MLOps from idea to production in six steps</a>. Used by AWS field teams worldwide.</p>
-    <span class="oss-card__tag">Author</span>
-    <a class="oss-card__stretched" href="https://github.com/aws-samples/amazon-sagemaker-from-idea-to-production" aria-label="View repo on GitHub"></a>
-  </div>
-  <div class="oss-card">
-    <div class="oss-card__head">
-      <span class="oss-card__repo">aws-samples/amazon-sagemaker-immersion-day</span>
-      <span class="oss-card__stars"><img src="https://img.shields.io/github/stars/aws-samples/amazon-sagemaker-immersion-day?style=social&cacheSeconds=3600" alt="GitHub stars"></span>
-    </div>
-    <p class="oss-card__desc">Workshop: <a class="oss-card__inline" href="https://sagemaker-immersionday.workshop.aws/">Amazon SageMaker Immersion Day</a>. Delivered to thousands of customers.</p>
-    <span class="oss-card__tag">Co-author</span>
-    <a class="oss-card__stretched" href="https://github.com/aws-samples/amazon-sagemaker-immersion-day" aria-label="View repo on GitHub"></a>
-  </div>
-</div>
+<a href="/opensource/" class="btn btn--primary">Contributions &amp; workshops &rarr;</a>
 
 ## Background
 
-Before joining AWS in 2020, I spent four years at [RadarServices](https://www.radarservices.com/) in Vienna, where I progressed from Software Developer to Development Team Leader to Software Engineer & Architect, working on cloud-based IT security monitoring products. Earlier in my career, I was a Postdoctoral Researcher and Data Analyst at [Trinity College Dublin](https://www.tcd.ie/), where I also earned my Ph.D. in Electronic & Electrical Engineering.
-
-My academic work has been [published](/publications/) in *IEEE Transactions on Computers*, *IEEE Transactions on Big Data*, *IEEE/ACM Transactions on Networking*, and *IEEE Transactions on Cognitive Communications and Networking*, among other venues.
+Before AWS I spent four years at [RadarServices](https://www.radarservices.com/), a Vienna cybersecurity company, going from developer to team lead to architect on a cloud-based security monitoring product. Before that I was a researcher: a Ph.D. at [Trinity College Dublin](https://www.tcd.ie/), a year analyzing nationwide cellular traffic data with O2 Ireland, and [papers](/publications/) in *IEEE Transactions on Computers*, *Big Data*, and *Networking*. The common thread, in hindsight, is distributed systems and data — I've just kept moving up the stack.
