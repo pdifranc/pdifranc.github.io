@@ -1,16 +1,16 @@
 # main links links
 main:
-  - title: "Professional Experience"
+  - title: "Experience"
     url: /experience/
 
-  - title: "Blog Posts"
+  - title: "Writing"
     url: /posts/
 
-  - title: "Talks"
+  - title: "Speaking & Teaching"
     url: /talks/
 
-  - title: "Teaching"
-    url: /teaching/
+  - title: "Open Source"
+    url: /opensource/
 
   - title: "Publications"
     url: /publications/
