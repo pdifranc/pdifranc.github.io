@@ -10,7 +10,7 @@ tags:
   - architecture
   - security
 ---
-In the rapidly evolving world of AI and machine learning, foundation models have shown tremendous potential for driving innovation. However, as organizations increasingly harness the power of FMs, concerns surrounding data privacy, security, added cost, and compliance have become paramount. In this post, we propose a Generative AI Gateway as a platform for an enterprise to allow secure access to foundation models for rapid innovation.
+Every team in the enterprise wants to try foundation models. Nobody wants ten teams each wiring up their own model access, cost tracking, and compliance controls — and the security office wants that even less. In this post, we propose a Generative AI Gateway: one governed entry point through which the whole organization consumes foundation models, so teams can move fast without each of them re-solving privacy, cost, and compliance from scratch.
 
 <!--more-->
 

@@ -12,10 +12,7 @@ tags:
   - apigateway
   - cognito
 ---
-MLflow and Amazon SageMaker are two of many tools on the market to help data scientists to implement end-to-end Machine Learning workloads.
-SageMaker offers the possibility to run these workloads fully end-to-end on its own ecosystem as it has been designed to solve some of the common challenges that are peculiar to ML lifecycle workloads. 
-Nonetheless, one of the great traits of the SageMaker ecosystem is also its flexibility and openess to integrate with other tools.
-Today, we ultimately want to show how you can **securely** integrate SageMaker with MLflow using native AWS services to enable access control on the open-source version of MLflow.
+Open-source MLflow has no access control out of the box — anyone who can reach the tracking server can read and write everything. That's fine on a laptop and a problem in an enterprise. In this post, we show how to run MLflow on serverless AWS infrastructure and put real authentication in front of it using only native AWS services: IAM for SageMaker jobs and Studio users, Amazon Cognito for the UI.
 
 **Full text [here](https://aws.amazon.com/blogs/machine-learning/securing-mlflow-in-aws-fine-grained-access-control-with-aws-native-services/), and GitHub repository [here](https://github.com/aws-samples/sagemaker-studio-mlflow-integration/)** ![GitHub stars](https://img.shields.io/github/stars/aws-samples/sagemaker-studio-mlflow-integration?style=social&cacheSeconds=3600)
 
