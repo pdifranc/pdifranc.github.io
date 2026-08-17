@@ -19,10 +19,10 @@ excerpt: "Professional experience of Paolo Di Francesco — AWS Solutions Archit
         <p class="timeline__meta">Vienna, Austria · July 2022 – Present</p>
       </div>
       <div class="timeline__body">
-        <p>Designing and implementing cloud-based solutions for customers across the full spectrum — from startups and small-to-medium businesses to large enterprises and public sector organizations, including universities. Focused on Machine Learning Operations (MLOps), DevOps, and Generative AI, leading numerous projects involving the deployment of machine learning models in production.</p>
-        <p>I have published 7 technical blog posts on the <a href="https://aws.amazon.com/blogs/machine-learning/author/frpaolo/">AWS Machine Learning Blog</a>, some of which directly influenced the development of new AWS managed services. I am also an active open-source contributor, with upstream contributions to <a href="https://github.com/mlflow/mlflow/pull/7044">MLflow</a> (<a href="https://github.com/mlflow/mlflow">GitHub</a>) <img src="https://img.shields.io/github/stars/mlflow/mlflow?style=social&cacheSeconds=3600" alt="GitHub stars"> and the <a href="https://github.com/aws/sagemaker-python-sdk/pull/5525">Amazon SageMaker Python SDK</a> (<a href="https://github.com/aws/sagemaker-python-sdk">GitHub</a>) <img src="https://img.shields.io/github/stars/aws/sagemaker-python-sdk?style=social&cacheSeconds=3600" alt="GitHub stars">.</p>
-        <p>I developed two public workshops used by AWS field teams worldwide and delivered to thousands of customers: <a href="https://sagemaker-immersionday.workshop.aws/">Amazon SageMaker Immersion Day</a> (<a href="https://github.com/aws-samples/amazon-sagemaker-immersion-day">GitHub</a>) <img src="https://img.shields.io/github/stars/aws-samples/amazon-sagemaker-immersion-day?style=social&cacheSeconds=3600" alt="GitHub stars"> and <a href="https://catalog.workshops.aws/mlops-from-idea-to-production">Amazon SageMaker MLOps: from idea to production in six steps</a> (<a href="https://github.com/aws-samples/amazon-sagemaker-from-idea-to-production">GitHub</a>) <img src="https://img.shields.io/github/stars/aws-samples/amazon-sagemaker-from-idea-to-production?style=social&cacheSeconds=3600" alt="GitHub stars">.</p>
-        <p>Beyond content creation, I regularly facilitate multi-day hackathons and innovation events for enterprise customers, resulting in projects going to production. I am a frequent public speaker at AWS Summits, Cloud Days, meetups, and university conferences across Europe (see <a href="/talks/">Talks</a>), and I mentor and onboard fellow Solutions Architects while contributing to building the local AI/ML technical community in Austria.</p>
+        <p>My day job is helping customers take machine learning to production — startups, enterprises, public sector, and universities. Most engagements are about MLOps, DevOps, or generative AI: architecture reviews, proofs of concept, and the occasional rescue of a project that grew faster than its foundations.</p>
+        <p>I've written 7 posts for the <a href="https://aws.amazon.com/blogs/machine-learning/author/frpaolo/">AWS Machine Learning Blog</a>, and some of that work fed directly into new AWS managed services. When customer problems turn out to be tooling problems, I fix them upstream — merged contributions to <a href="https://github.com/mlflow/mlflow/pull/7044">MLflow</a> and the <a href="https://github.com/aws/sagemaker-python-sdk/pull/5525">SageMaker Python SDK</a> (details on the <a href="/opensource/">Open Source</a> page).</p>
+        <p>I wrote two public workshops that AWS field teams deliver worldwide: the <a href="https://sagemaker-immersionday.workshop.aws/">Amazon SageMaker Immersion Day</a> and <a href="https://catalog.workshops.aws/mlops-from-idea-to-production">MLOps: from idea to production in six steps</a>. Thousands of customers have gone through them.</p>
+        <p>I run multi-day hackathons for enterprise customers; teams leave with a working prototype, and several have taken theirs to production. I speak regularly at AWS Summits, Cloud Days, and meetups across Europe (see <a href="/talks/">Speaking &amp; Teaching</a>), mentor new Solutions Architects, and help build the AI/ML community in Austria.</p>
       </div>
     </div>
   </div>
@@ -38,7 +38,7 @@ excerpt: "Professional experience of Paolo Di Francesco — AWS Solutions Archit
         <p class="timeline__meta">Vienna, Austria · 2020 – July 2022</p>
       </div>
       <div class="timeline__body">
-        <p>Helped customers across startups, SMBs, and enterprises adopt AWS services and design scalable cloud architectures. Delivered technical workshops, architecture reviews, and proof-of-concept engagements. Led cloud migration and adoption programs, including multi-account landing zone setups and cost optimization initiatives across diverse industries.</p>
+        <p>My generalist years. I helped customers from startups to enterprises adopt AWS: cloud migrations, multi-account landing zones, cost optimization, and a lot of whiteboard sessions across manufacturing, media, energy, and technology. This is where I learned that the most valuable thing an architect brings to a review is not answers, but better questions.</p>
       </div>
     </div>
   </div>
@@ -47,14 +47,14 @@ excerpt: "Professional experience of Paolo Di Francesco — AWS Solutions Archit
     <div class="timeline__card">
       <div class="timeline__header" onclick="this.parentElement.classList.toggle('expanded')">
         <div class="timeline__title-row">
-          <h3 class="timeline__role">Software Engineer & Architect</h3>
+          <h3 class="timeline__role">Software Engineer &amp; Architect</h3>
           <span class="timeline__toggle"><i class="fas fa-chevron-down"></i></span>
         </div>
         <p class="timeline__company">RadarServices GmbH</p>
         <p class="timeline__meta">Vienna, Austria · October 2017 – 2020</p>
       </div>
       <div class="timeline__body">
-        <p>Designed and implemented a service-oriented architecture for a cloud-based IT security monitoring product, leading the transformation of a large monolith into a modular, scalable system. Worked closely with enterprise customers to define business processes and translate their requirements into technical solutions. Owned the design and documentation of REST APIs, including data formats and versioning strategy. Identified and resolved critical performance bottlenecks to meet strict SLAs, and mentored junior developers across the team.</p>
+        <p>I led the transformation of a large monolith into a service-oriented architecture for a cloud-based IT security monitoring product. That meant designing and documenting the REST APIs (data formats, versioning strategy), hunting down the performance bottlenecks that threatened our SLAs, and sitting with enterprise customers to turn their business processes into requirements the team could build. I also mentored the junior developers who would later inherit the system.</p>
       </div>
     </div>
   </div>
@@ -70,7 +70,7 @@ excerpt: "Professional experience of Paolo Di Francesco — AWS Solutions Archit
         <p class="timeline__meta">Vienna, Austria · January 2017 – October 2017</p>
       </div>
       <div class="timeline__body">
-        <p>Led a development team responsible for delivering working software to department standards. Managed hiring by interviewing candidate developers, and facilitated close collaboration between the team and stakeholders to ensure alignment on requirements and priorities.</p>
+        <p>Led a development team through delivery, hiring, and the daily work of keeping stakeholders and engineers pointed in the same direction.</p>
       </div>
     </div>
   </div>
@@ -86,7 +86,7 @@ excerpt: "Professional experience of Paolo Di Francesco — AWS Solutions Archit
         <p class="timeline__meta">Vienna, Austria · March 2016 – December 2016</p>
       </div>
       <div class="timeline__body">
-        <p>Joined as a software developer, implementing new features according to stakeholder specifications in a test-driven development environment with peer review practices.</p>
+        <p>Joined as a developer, shipping features in a test-driven environment with peer review. Nine months later I was leading the team.</p>
       </div>
     </div>
   </div>
@@ -102,7 +102,7 @@ excerpt: "Professional experience of Paolo Di Francesco — AWS Solutions Archit
         <p class="timeline__meta">Dublin, Ireland · September 2015 – March 2016</p>
       </div>
       <div class="timeline__body">
-        <p>Contributed to the <a href="https://www.fed4fire.eu/">Fed4FIRE</a> EU FP7 project, developing the frontend and backend to enable remote access to the Trinity College Dublin wireless testbed. Designed and implemented a web-based resource management and monitoring system with automated resource assignment.</p>
+        <p>Worked on the <a href="https://www.fed4fire.eu/">Fed4FIRE</a> EU FP7 project, building the frontend and backend that gave researchers remote access to Trinity's wireless testbed, including a web-based resource management system with automated assignment.</p>
       </div>
     </div>
   </div>
@@ -114,11 +114,11 @@ excerpt: "Professional experience of Paolo Di Francesco — AWS Solutions Archit
           <h3 class="timeline__role">Data Analyst</h3>
           <span class="timeline__toggle"><i class="fas fa-chevron-down"></i></span>
         </div>
-        <p class="timeline__company">O2 Ireland & Trinity College Dublin</p>
+        <p class="timeline__company">O2 Ireland &amp; Trinity College Dublin</p>
         <p class="timeline__meta">Dublin, Ireland · September 2013 – September 2014</p>
       </div>
       <div class="timeline__body">
-        <p>Collected and maintained large datasets of anonymized call detail records for O2 mobile cellular networks across Ireland. Analysed spatio-temporal dynamics in cellular traffic demand, gaining insight into traffic patterns that informed network planning research.</p>
+        <p>Built and maintained nationwide datasets of anonymized call detail records from O2's cellular network, then analyzed the spatio-temporal dynamics of traffic demand. That work became the empirical backbone of my network planning research — and my first real lesson in how much of data science is data janitorial work.</p>
       </div>
     </div>
   </div>
@@ -134,7 +134,7 @@ excerpt: "Professional experience of Paolo Di Francesco — AWS Solutions Archit
         <p class="timeline__meta">Dublin, Ireland · September 2012 – May 2015</p>
       </div>
       <div class="timeline__body">
-        <p>Taught Java programming to Computer Science students and demonstrated Fundamentals of Electrotechnics — covering basic filtering, modulation, and hands-on use of oscilloscopes.</p>
+        <p>Taught Java programming to Computer Science students and ran the Electrotechnics lab — filtering, modulation, and hands-on oscilloscope work.</p>
       </div>
     </div>
   </div>
@@ -150,7 +150,7 @@ excerpt: "Professional experience of Paolo Di Francesco — AWS Solutions Archit
         <p class="timeline__meta">Dublin, Ireland · March 2010 – December 2010</p>
       </div>
       <div class="timeline__body">
-        <p>Worked on Software Defined Radio (SDR) platforms, developing a split-architecture for carrier-sensing based MAC protocols. Collected and analysed experimental data to evaluate MAC protocol performance in multi-hop wireless networks.</p>
+        <p>Built a split architecture for carrier-sensing MAC protocols on Software Defined Radio platforms, and gathered the experimental data to evaluate them in multi-hop wireless networks.</p>
       </div>
     </div>
   </div>
