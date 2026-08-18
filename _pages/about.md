@@ -25,7 +25,7 @@ hide_title: true
   </div>
 </div>
 
-I'm a Senior Solutions Architect at [Amazon Web Services](https://aws.amazon.com/) in Vienna. I help teams get machine learning out of notebooks and into production, which mostly means the unglamorous parts: pipelines, versioning, access control, and the seams between tools. Lately much of my time goes to generative and **agentic AI**, and to a question I find genuinely hard: how do foundation models and tool use change the way we should architect systems?
+I'm a Senior Solutions Architect at [Amazon Web Services](https://aws.amazon.com/) in Vienna. I help teams get machine learning out of notebooks and into production, which mostly means the unglamorous parts: pipelines, versioning, access control, and the seams between tools. Lately much of my time goes to generative and **agentic AI**, and to a question I find genuinely hard: how do foundation models and tool use change the way we should architect systems? My current answer-in-progress is a [re-imagined developer portal](/experience/): describe your application, and an agent bootstraps the infrastructure to best practices.
 
 One pattern from years of customer work: most MLOps failures aren't modeling problems. They're lineage, versioning, and access-control problems. That conviction is why I keep ending up in [MLflow's codebase](/opensource/), and why my <a href="https://aws.amazon.com/blogs/machine-learning/author/frpaolo/">writing</a> tends toward the plumbing rather than the models.
 
