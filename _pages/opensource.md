@@ -89,4 +89,49 @@ Runnable code behind my blog posts. Each repository stands on its own: clone it,
     <span class="oss-card__tag">Author</span>
     <a class="oss-card__stretched" href="https://github.com/aws-samples/sample-amazon-sagemaker-mlflow-dvc-lineage" aria-label="View repo on GitHub"></a>
   </div>
+  <div class="oss-card">
+    <div class="oss-card__head">
+      <span class="oss-card__repo">aws-samples/sagemaker-custom-project-templates</span>
+      <span class="oss-card__stars"><img src="https://img.shields.io/github/stars/aws-samples/sagemaker-custom-project-templates?style=social&cacheSeconds=3600" alt="GitHub stars"></span>
+    </div>
+    <p class="oss-card__desc">S3-based templates for SageMaker AI Projects: one-click provisioning of a ModelOps environment integrated with GitHub Actions, without a Service Catalog. Companion to <a class="oss-card__inline" href="/posts/2026/01/sagemaker-s3-project-templates">this post</a>.</p>
+    <span class="oss-card__tag">Contributor</span>
+    <a class="oss-card__stretched" href="https://github.com/aws-samples/sagemaker-custom-project-templates/tree/main/s3_templates" aria-label="View repo on GitHub"></a>
+  </div>
+  <div class="oss-card">
+    <div class="oss-card__head">
+      <span class="oss-card__repo">aws-samples/track-fmeval-evaluation-using-mlflow</span>
+      <span class="oss-card__stars"><img src="https://img.shields.io/github/stars/aws-samples/track-fmeval-evaluation-using-mlflow?style=social&cacheSeconds=3600" alt="GitHub stars"></span>
+    </div>
+    <p class="oss-card__desc">Programmatic LLM evaluation with FMEval, tracked and compared in SageMaker managed MLflow — accuracy, toxicity, fairness, and robustness as first-class experiment data. Companion to <a class="oss-card__inline" href="/posts/2025/01/sagemaker-mlflow-fmeval">this post</a>.</p>
+    <span class="oss-card__tag">Author</span>
+    <a class="oss-card__stretched" href="https://github.com/aws-samples/track-fmeval-evaluation-using-mlflow" aria-label="View repo on GitHub"></a>
+  </div>
+  <div class="oss-card">
+    <div class="oss-card__head">
+      <span class="oss-card__repo">aws-samples/sagemaker-studio-mlflow-integration</span>
+      <span class="oss-card__stars"><img src="https://img.shields.io/github/stars/aws-samples/sagemaker-studio-mlflow-integration?style=social&cacheSeconds=3600" alt="GitHub stars"></span>
+    </div>
+    <p class="oss-card__desc">Open-source MLflow on serverless AWS with real access control: IAM for SageMaker jobs and Studio users, Amazon Cognito for the UI, and the MLflow UI embedded in Studio. Companion to <a class="oss-card__inline" href="/posts/2023/05/secure-mlflow-aws">this post</a>.</p>
+    <span class="oss-card__tag">Author</span>
+    <a class="oss-card__stretched" href="https://github.com/aws-samples/sagemaker-studio-mlflow-integration" aria-label="View repo on GitHub"></a>
+  </div>
+  <div class="oss-card">
+    <div class="oss-card__head">
+      <span class="oss-card__repo">aws-samples/sagemaker-experiments-and-pipelines</span>
+      <span class="oss-card__stars"><img src="https://img.shields.io/github/stars/aws-samples/sagemaker-experiments-and-pipelines?style=social&cacheSeconds=3600" alt="GitHub stars"></span>
+    </div>
+    <p class="oss-card__desc">Automatic experiment tracking inside SageMaker Pipelines: organize, track, and visualize every pipeline execution as an experiment. Companion to <a class="oss-card__inline" href="/posts/2022/07/sagemaker-experiments-pipelines">this post</a>.</p>
+    <span class="oss-card__tag">Author</span>
+    <a class="oss-card__stretched" href="https://github.com/aws-samples/sagemaker-experiments-and-pipelines" aria-label="View repo on GitHub"></a>
+  </div>
+  <div class="oss-card">
+    <div class="oss-card__head">
+      <span class="oss-card__repo">aws-samples/amazon-sagemaker-experiments-dvc-demo</span>
+      <span class="oss-card__stars"><img src="https://img.shields.io/github/stars/aws-samples/amazon-sagemaker-experiments-dvc-demo?style=social&cacheSeconds=3600" alt="GitHub stars"></span>
+    </div>
+    <p class="oss-card__desc">Data Version Control alongside SageMaker Experiments: track data and code changes together with experiment metrics for reproducible ML workflows. Companion to <a class="oss-card__inline" href="/posts/2022/07/dvc-sagemaker-experiments">this post</a>.</p>
+    <span class="oss-card__tag">Author</span>
+    <a class="oss-card__stretched" href="https://github.com/aws-samples/amazon-sagemaker-experiments-dvc-demo" aria-label="View repo on GitHub"></a>
+  </div>
 </div>
