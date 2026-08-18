@@ -23,6 +23,7 @@
 {% assign seo_description = page.description | default: page.excerpt | default: site.description %}
 {% if seo_description %}
   {% assign seo_description = seo_description | markdownify | strip_html | strip_newlines | escape_once %}
+  <meta name="description" content="{{ seo_description }}">
 {% endif %}
 
 {% assign seo_author = page.author | default: page.author[0] | default: site.author[0] %}
@@ -117,28 +118,32 @@
   <link rel="next" href="{{ paginator.next_page_path | prepend: seo_url }}">
 {% endif %}
 
-{% if site.og_image %}
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Paolo Di Francesco",
+    "url": {{ seo_url | jsonify }},
+    "image": {{ site.author.avatar | prepend: "/images/" | prepend: base_path | prepend: seo_url | jsonify }},
+    "jobTitle": "Senior Solutions Architect",
+    "worksFor": {
       "@type": "Organization",
-      "url": {{ seo_url | jsonify }},
-      "logo": {{ site.og_image | prepend: "/images/" | prepend: base_path | jsonify }}
-    }
-  </script>
-{% endif %}
-
-{% if site.social %}
-  <script type="application/ld+json">
-    {
-      "@context" : "http://schema.org",
-      "@type" : "{% if site.social.type %}{{ site.social.type }}{% else %}Person{% endif %}",
-      "name" : "{{ site.social.name | default: site.name }}",
-      "url" : {{ seo_url | jsonify }},
-      "sameAs" : {{ site.social.links | jsonify }}
-    }
-  </script>
-{% endif %}
+      "name": "Amazon Web Services",
+      "url": "https://aws.amazon.com/"
+    },
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Trinity College Dublin"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/paolo-di-francesco",
+      "https://github.com/pdifranc",
+      "https://scholar.google.at/citations?user=ZpEaqsQAAAAJ",
+      "https://orcid.org/0000-0002-1136-741X",
+      "https://stackoverflow.com/users/3506405/pdifranc"
+    ]
+  }
+</script>
 
 {% if site.google_site_verification %}
   <meta name="google-site-verification" content="{{ site.google_site_verification }}" />

@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: "AWS Solutions Architect | MLOps & Agentic AI"
 excerpt: "Paolo Di Francesco — Senior Solutions Architect at AWS in Vienna. MLOps, Generative AI, and the unglamorous parts of getting ML into production."
 author_profile: true
 redirect_from: 
