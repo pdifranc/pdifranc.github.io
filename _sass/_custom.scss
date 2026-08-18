@@ -612,6 +612,14 @@
   padding: 1em 1.2em;
   cursor: pointer;
   user-select: none;
+  display: block;
+  list-style: none;
+
+  &::-webkit-details-marker,
+  &::marker {
+    display: none;
+    content: "";
+  }
 }
 
 .timeline__title-row {
@@ -625,6 +633,8 @@
   font-size: 1.1em;
   font-weight: 700;
   color: var(--text);
+  border-bottom: none;
+  padding-bottom: 0;
 }
 
 .timeline__toggle {
@@ -634,6 +644,7 @@
 }
 
 .timeline__company {
+  display: block;
   margin: 0.2em 0 0;
   font-weight: 600;
   color: var(--accent);
@@ -641,16 +652,14 @@
 }
 
 .timeline__meta {
+  display: block;
   margin: 0.2em 0 0;
   font-size: 0.8em;
   color: var(--text-muted);
 }
 
 .timeline__body {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.4s ease, padding 0.3s ease;
-  padding: 0 1.2em;
+  padding: 0 1.2em 1em;
 
   p {
     font-size: 0.9em;
@@ -659,14 +668,9 @@
   }
 }
 
-.timeline__card.expanded {
+.timeline__card[open] {
   .timeline__toggle {
     transform: rotate(180deg);
-  }
-
-  .timeline__body {
-    max-height: 800px;
-    padding: 0 1.2em 1em;
   }
 }
 
