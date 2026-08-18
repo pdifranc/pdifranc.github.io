@@ -1,6 +1,11 @@
 {% include base_path %}
 
-{% if site.tag_archive.type and page.tags[0] %}
+{% comment %}
+  Tag links point at /tags/#fragment anchors that only exist for post tags
+  (tag-archive.html groups site.posts). Rendering them for other collections
+  (talks, publications) produces broken fragment links, so gate on posts.
+{% endcomment %}
+{% if site.tag_archive.type and page.tags[0] and page.collection == "posts" %}
   {% include tag-list.html %}
 {% endif %}
 
