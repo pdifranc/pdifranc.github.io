@@ -10,4 +10,4 @@ redirect_from:
 
 You can view my full CV below or [download it as PDF](/files/pdf/cv_full.pdf).
 
-<iframe src="/files/pdf/cv_full.pdf" width="100%" height="800" frameborder="no" border="0" marginwidth="0" marginheight="0" loading="lazy"></iframe>
+<iframe src="/files/pdf/cv_full.pdf" title="Curriculum Vitae of Paolo Di Francesco (PDF)" width="100%" height="800" frameborder="no" border="0" marginwidth="0" marginheight="0" loading="lazy"></iframe>

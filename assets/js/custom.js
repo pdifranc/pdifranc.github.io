@@ -7,6 +7,7 @@
   function updateIcon() {
     var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
     icon.className = isDark ? 'fas fa-sun' : 'fas fa-moon';
+    toggle.setAttribute('aria-pressed', isDark ? 'true' : 'false');
   }
 
   updateIcon();
@@ -36,6 +37,14 @@
     'Speaker & Lecturer',
     'Agentic AI Enthusiast'
   ];
+
+  // Respect reduced-motion preference: show static text, no animation
+  var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)');
+  if (reduceMotion && reduceMotion.matches) {
+    el.textContent = roles[0];
+    return;
+  }
+
   var roleIdx = 0, charIdx = 0, deleting = false;
 
   function tick() {
@@ -87,12 +96,22 @@
 (function() {
   document.querySelectorAll('.filter-bar').forEach(function(bar) {
     var items = bar.parentElement.querySelectorAll('.filterable-item');
+
+    // Expose initial toggle state to assistive technology
+    bar.querySelectorAll('.filter-btn').forEach(function(b) {
+      b.setAttribute('aria-pressed', b.classList.contains('active') ? 'true' : 'false');
+    });
+
     bar.addEventListener('click', function(e) {
       var btn = e.target.closest('.filter-btn');
       if (!btn) return;
 
-      bar.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); });
+      bar.querySelectorAll('.filter-btn').forEach(function(b) {
+        b.classList.remove('active');
+        b.setAttribute('aria-pressed', 'false');
+      });
       btn.classList.add('active');
+      btn.setAttribute('aria-pressed', 'true');
 
       var filter = btn.getAttribute('data-filter');
       items.forEach(function(item) {

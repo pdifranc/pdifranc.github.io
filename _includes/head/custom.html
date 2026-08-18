@@ -19,13 +19,15 @@
 <meta name="msapplication-config" content="{{ base_path }}/images/browserconfig.xml?v=20260329">
 <meta name="theme-color" content="#0ea5e9">
 
-<!-- View Transitions API for smooth page navigations -->
+<!-- View Transitions API for smooth page navigations (disabled for reduced motion) -->
 <style>
-  @view-transition { navigation: auto; }
-  ::view-transition-old(root) { animation: fade-out 0.2s ease-in; }
-  ::view-transition-new(root) { animation: fade-in 0.3s ease-out; }
-  @keyframes fade-out { to { opacity: 0; } }
-  @keyframes fade-in { from { opacity: 0; } }
+  @media not (prefers-reduced-motion: reduce) {
+    @view-transition { navigation: auto; }
+    ::view-transition-old(root) { animation: fade-out 0.2s ease-in; }
+    ::view-transition-new(root) { animation: fade-in 0.3s ease-out; }
+    @keyframes fade-out { to { opacity: 0; } }
+    @keyframes fade-in { from { opacity: 0; } }
+  }
 </style>
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
