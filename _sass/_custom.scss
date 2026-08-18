@@ -932,3 +932,34 @@
     transform: none !important;
   }
 }
+
+
+/*
+   List-view teaser thumbnails (posts listing)
+   ========================================================================== */
+
+.archive__item--has-teaser {
+  display: flow-root;
+}
+
+.archive__item-teaser--list {
+  float: right;
+  width: 180px;
+  max-width: 38%;
+  margin: 0.35em 0 0.5em 1.25em;
+  border: 1px solid var(--card-border, #e0e0e0);
+  border-radius: 8px;
+  background: #fff;
+
+  img {
+    display: block;
+    width: 100%;
+  }
+
+  @media (max-width: 500px) {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0 0.75em;
+  }
+}

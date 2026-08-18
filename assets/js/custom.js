@@ -33,7 +33,7 @@
   var roles = [
     'Senior Solutions Architect at AWS',
     'MLOps & Generative AI',
-    'Open Source Contributor',
+    'MLflow Contributor',
     'Speaker & Lecturer',
     'Agentic AI Enthusiast'
   ];

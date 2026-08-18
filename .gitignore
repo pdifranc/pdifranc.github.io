@@ -1,4 +1,5 @@
 _site/
+.jekyll-cache/
 images/posts/*.tex
 images/posts/*.pdf
 images/posts/*.sty

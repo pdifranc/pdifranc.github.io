@@ -19,7 +19,6 @@ breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
   provider               : false
 atom_feed:
@@ -61,8 +60,6 @@ exclude:
   - "*.sublime-workspace"
   - .asset-cache
   - .bundle
-  - .Rproj.user
-  - _source
   - .jekyll-assets-cache
   - .sass-cache
   - CHANGELOG
@@ -75,24 +72,20 @@ exclude:
   - README
   - README.md
   - Rakefile
-  - Website.Rproj
   - _config.dev.yml
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
   - config
-  - data
   - feedback.md
   - files/pdf/_site
   - files/pdf/.jekyll-cache
   - files/pdf/*.tex
   - gulpfile.js
   - log
-  - markdown_generator
   - node_modules
   - package.json
   - package-lock.json
-  - talkmap
   - tmp
   - vendor
 keep_files:
