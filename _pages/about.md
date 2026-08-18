@@ -59,3 +59,9 @@ Merged pull requests in [MLflow](https://github.com/mlflow/mlflow) (SigV4 authen
 ## Background
 
 Before AWS I spent four years at [RadarServices](https://www.radarservices.com/), a Vienna cybersecurity company, going from developer to team lead to architect on a cloud-based security monitoring product. Before that I was a researcher: a Ph.D. at [Trinity College Dublin](https://www.tcd.ie/), a year analyzing nationwide cellular traffic data with O2 Ireland, and [papers](/publications/) in *IEEE Transactions on Computers*, *Big Data*, and *Networking*. The common thread, in hindsight, is distributed systems and data — I've just kept moving up the stack.
+
+## Get in touch
+
+Want to talk MLOps, agentic AI, or invite me to speak at your event? The best way to reach me is [LinkedIn](https://www.linkedin.com/in/paolo-di-francesco); for anything open-source, open an issue or find me on [GitHub](https://github.com/pdifranc).
+
+<a href="https://www.linkedin.com/in/paolo-di-francesco" class="btn btn--primary">Connect on LinkedIn</a>
