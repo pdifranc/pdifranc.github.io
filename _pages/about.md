@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "AWS Solutions Architect · MLflow Contributor · MLOps & Agentic AI"
-excerpt: "Paolo Di Francesco — Senior Solutions Architect at AWS in Vienna and MLflow contributor. MLOps, Generative AI, and the unglamorous parts of getting ML into production."
+excerpt: "Paolo Di Francesco — Senior Solutions Architect at AWS in Vienna and MLflow contributor. Open-source ML tools on SageMaker, MLOps, and agentic AI."
 author_profile: true
 redirect_from: 
   - /about/
@@ -25,9 +25,11 @@ hide_title: true
   </div>
 </div>
 
-I'm a Senior Solutions Architect at [Amazon Web Services](https://aws.amazon.com/) in Vienna and a contributor to [MLflow](https://github.com/mlflow/mlflow). I help teams get machine learning out of notebooks and into production, which mostly means the unglamorous parts: pipelines, versioning, access control, and the seams between tools. Lately much of my time goes to generative and **agentic AI**, and to a question I find genuinely hard: how do foundation models and tool use change the way we should architect systems? My current answer-in-progress is a [re-imagined developer portal](/experience/): describe your application, and an agent bootstraps the infrastructure to best practices.
+I like open-source ML tools, and I like them working where the work actually happens. Most of what I've built as a Senior Solutions Architect at [AWS](https://aws.amazon.com/) in Vienna comes from that: getting [MLflow](https://github.com/mlflow/mlflow) and [DVC](https://dvc.org/) to run properly on Amazon SageMaker, with the access control, lineage, and versioning production demands.
 
-One pattern from years of customer work: most MLOps failures aren't modeling problems. They're lineage, versioning, and access-control problems. That conviction is why I keep ending up in [MLflow's codebase](/opensource/), and why my <a href="https://aws.amazon.com/blogs/machine-learning/author/frpaolo/">writing</a> tends toward the plumbing rather than the models.
+One went further than expected. Open-source MLflow had no access control and enterprises needed it, so I [built it on AWS-native services](/posts/2023/05/secure-mlflow-aws) and [contributed the client-side SigV4 signing upstream](https://github.com/mlflow/mlflow/pull/7044) to MLflow. The SageMaker service team picked up the thread: the SigV4 work led to the [sagemaker-mlflow plugin](https://github.com/aws/sagemaker-mlflow) that handles authentication in managed MLflow today, and I ended up in the design discussions for what became [managed MLflow on SageMaker AI](https://docs.aws.amazon.com/sagemaker/latest/dg/mlflow.html).
+
+These days the same instinct points at **agentic AI**: my current project is a [re-imagined developer portal](/experience/) — describe your application, and an agent bootstraps the infrastructure to best practices.
 
 <div class="focus-grid">
   <div class="focus-card">
