@@ -35,7 +35,7 @@ These days the same instinct points at **agentic AI**: my current project is a [
   <div class="focus-card">
     <div class="focus-card__icon"><i class="fas fa-cube"></i></div>
     <h3 class="focus-card__title">Build</h3>
-    <p class="focus-card__body">Cloud and ML architectures with AWS customers, from startups to enterprises. Architecture reviews, proofs of concept, and hackathons that end in production systems.</p>
+    <p class="focus-card__body">Production ML with AWS customers — architecture reviews, proofs of concept, and multi-day hackathons. When the blocker turns out to be the tooling, the fix goes upstream.</p>
     <a class="focus-card__link focus-card__link--stretched" href="/experience/">Experience &rarr;</a>
   </div>
   <div class="focus-card">

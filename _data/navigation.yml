@@ -3,14 +3,14 @@ main:
   - title: "Experience"
     url: /experience/
 
+  - title: "Open Source"
+    url: /opensource/
+
   - title: "Writing"
     url: /posts/
 
   - title: "Speaking & Teaching"
     url: /talks/
-
-  - title: "Open Source"
-    url: /opensource/
 
   - title: "Publications"
     url: /publications/
