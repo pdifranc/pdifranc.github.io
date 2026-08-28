@@ -17,7 +17,7 @@ Open-source MLflow has no access control out of the box — anyone who can reach
 
 <!--more-->
 
-**Full text [here](https://aws.amazon.com/blogs/machine-learning/securing-mlflow-in-aws-fine-grained-access-control-with-aws-native-services/), and GitHub repository [here](https://github.com/aws-samples/sagemaker-studio-mlflow-integration/)** ![GitHub stars](https://img.shields.io/github/stars/aws-samples/sagemaker-studio-mlflow-integration?style=social&cacheSeconds=3600)
+**Full text [here](https://aws.amazon.com/blogs/machine-learning/securing-mlflow-in-aws-fine-grained-access-control-with-aws-native-services/), and GitHub repository [here](https://github.com/aws-samples/sagemaker-studio-mlflow-integration/)**
 
 ![Architecture: MLflow tracking server on serverless AWS infrastructure in a private subnet, exposed through Amazon API Gateway with IAM authentication for SageMaker jobs and Studio users, and Amazon Cognito authentication for UI access](/images/posts/secure-mlflow-aws/mlflow-architecture.png)
 

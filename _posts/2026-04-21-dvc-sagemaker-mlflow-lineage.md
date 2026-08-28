@@ -18,7 +18,7 @@ Production ML teams often struggle to trace the full lineage of a model back to 
 
 <!--more-->
 
-**Full text [here](https://aws.amazon.com/blogs/machine-learning/end-to-end-lineage-with-dvc-and-amazon-sagemaker-ai-mlflow-apps/), and GitHub repository [here](https://github.com/aws-samples/sample-amazon-sagemaker-mlflow-dvc-lineage)** ![GitHub stars](https://img.shields.io/github/stars/aws-samples/sample-amazon-sagemaker-mlflow-dvc-lineage?style=social&cacheSeconds=3600)
+**Full text [here](https://aws.amazon.com/blogs/machine-learning/end-to-end-lineage-with-dvc-and-amazon-sagemaker-ai-mlflow-apps/), and GitHub repository [here](https://github.com/aws-samples/sample-amazon-sagemaker-mlflow-dvc-lineage)**
 
 ![Architecture: DVC versions datasets in Amazon S3 while SageMaker AI runs processing and training jobs; every MLflow run logs the DVC Git commit hash, tying the model in the MLflow registry back to the exact data version that produced it](/images/posts/dvc-sagemaker-mlflow-lineage/architecture.png)
 

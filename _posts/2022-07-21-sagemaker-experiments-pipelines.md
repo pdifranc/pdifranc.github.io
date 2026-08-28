@@ -14,7 +14,7 @@ The process of building a machine learning (ML) model is iterative until you fin
 
 <!--more-->
 
-**Full text [here](https://aws.amazon.com/blogs/machine-learning/organize-your-machine-learning-journey-with-amazon-sagemaker-experiments-and-amazon-sagemaker-pipelines/), and GitHub repository [here](https://github.com/aws-samples/sagemaker-experiments-and-pipelines)** ![GitHub stars](https://img.shields.io/github/stars/aws-samples/sagemaker-experiments-and-pipelines?style=social&cacheSeconds=3600)
+**Full text [here](https://aws.amazon.com/blogs/machine-learning/organize-your-machine-learning-journey-with-amazon-sagemaker-experiments-and-amazon-sagemaker-pipelines/), and GitHub repository [here](https://github.com/aws-samples/sagemaker-experiments-and-pipelines)**
 
 In this post, we take a closer look at the motivation behind having an automated process to track experiments with Amazon SageMaker Experiments and the native capabilities built into Amazon SageMaker Pipelines. We show how the native integration between Pipelines and Experiments allows data scientists to automatically organize, track, and visualize experiments during model development activities.
 

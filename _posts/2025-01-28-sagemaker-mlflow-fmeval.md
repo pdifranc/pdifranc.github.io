@@ -14,7 +14,7 @@ In this post, we show how to use FMEval and Amazon SageMaker to programmatically
 
 <!--more-->
 
-**Full text [here](https://aws.amazon.com/blogs/machine-learning/track-llm-model-evaluation-using-amazon-sagemaker-managed-mlflow-and-fmeval/), and GitHub repository [here](https://github.com/aws-samples/track-fmeval-evaluation-using-mlflow)** ![GitHub stars](https://img.shields.io/github/stars/aws-samples/track-fmeval-evaluation-using-mlflow?style=social&cacheSeconds=3600)
+**Full text [here](https://aws.amazon.com/blogs/machine-learning/track-llm-model-evaluation-using-amazon-sagemaker-managed-mlflow-and-fmeval/), and GitHub repository [here](https://github.com/aws-samples/track-fmeval-evaluation-using-mlflow)**
 
 We demonstrate how to combine FMEval with Amazon SageMaker managed MLflow to track and compare LLM evaluation results, enabling systematic model selection and governance for your generative AI workflows.
 
