@@ -60,7 +60,7 @@ Merged pull requests in [MLflow](https://github.com/mlflow/mlflow) (SigV4 authen
 
 ## Background
 
-Before AWS I spent four years at [RadarServices](https://www.radarservices.com/), a Vienna cybersecurity company, going from developer to team lead to architect on a cloud-based security monitoring product. Before that I was a researcher: a Ph.D. at [Trinity College Dublin](https://www.tcd.ie/), a year analyzing nationwide cellular traffic data with O2 Ireland, and [papers](/publications/) in *IEEE Transactions on Computers*, *Big Data*, and *Networking*. The common thread, in hindsight, is distributed systems and data — I've just kept moving up the stack.
+Before AWS I spent four years at [RadarServices](https://www.radarservices.com/), a Vienna cybersecurity company, going from developer to team lead to architect on a cloud-based security monitoring product. Before that I was a researcher: a Ph.D. at [Trinity College Dublin](https://www.tcd.ie/), where I started out programming Software Defined Radios (SDRs) — you can check [that work here](/files/pdf/research/2015SplitMAC.pdf). My research focused on mobile network infrastructure sharing between operators, where I analyzed call detail records from two major mobile operators in Ireland, with [papers](/publications/) in *IEEE Transactions on Computers*, *Big Data*, and *Networking*. The common thread, in hindsight, is distributed systems and data — I've just kept moving up the stack.
 
 ## Get in touch
 
