@@ -11,7 +11,7 @@ Most of my open-source work orbits MLflow and Amazon SageMaker, because that's w
 
 MLflow shows up everywhere in my work, so it deserves its own narrative. It started with a customer problem: open-source MLflow had no access control, and enterprises needed it. I [built the fix on AWS-native services](/posts/2023/05/secure-mlflow-aws) — and when the client side needed to sign requests, I contributed [AWS SigV4 authentication to MLflow itself](https://github.com/mlflow/mlflow/pull/7044). That field experience — POCs, blog posts, the upstream contribution — led to design discussions with the AWS service team during the development of [managed MLflow on Amazon SageMaker AI](https://docs.aws.amazon.com/sagemaker/latest/dg/mlflow.html), where I brought the customer perspective from running MLflow on AWS in production. The SigV4 work also led to the [sagemaker-mlflow plugin](https://github.com/aws/sagemaker-mlflow), which today handles authentication in managed MLflow using the same approach.
 
-Since then the thread has continued: [network isolation for managed MLflow with AWS PrivateLink](/posts/2024/12/sagemaker-mlflow-privatelink), [tracking LLM evaluations in MLflow with FMEval](/posts/2025/01/sagemaker-mlflow-fmeval), [end-to-end data lineage with DVC and MLflow](/posts/2026/04/dvc-sagemaker-mlflow-lineage), [three patterns for deploying MLflow models to SageMaker endpoints](/posts/2026/08/mlflow-deploy-sagemaker-hosting), and a [second merged MLflow PR](https://github.com/mlflow/mlflow/pull/22996) unblocking container builds in SageMaker JupyterLab. Every piece follows the same rule: hit the seam in the field, fix it upstream, write it down.
+Since then the thread has continued: [network isolation for managed MLflow with AWS PrivateLink](/posts/2024/12/sagemaker-mlflow-privatelink), [tracking LLM evaluations in MLflow with FMEval](/posts/2025/01/sagemaker-mlflow-fmeval), [end-to-end data lineage with DVC and MLflow](/posts/2026/04/dvc-sagemaker-mlflow-lineage), [three patterns for deploying MLflow models to SageMaker endpoints](/posts/2026/08/mlflow-deploy-sagemaker-hosting), a two-part series on governing models with MLflow and SageMaker AI Model Registry sync — [single-account](/posts/2026/09/mlflow-model-registry-sync-part-1) and [cross-account](/posts/2026/09/mlflow-model-registry-sync-part-2) topologies — and a [second merged MLflow PR](https://github.com/mlflow/mlflow/pull/22996) unblocking container builds in SageMaker JupyterLab. Every piece follows the same rule: hit the seam in the field, fix it upstream, write it down.
 
 ## Contributions
 
@@ -85,6 +85,14 @@ My main project right now re-imagines the developer portal: instead of clicking 
 Runnable code behind my blog posts. Each repository stands on its own: clone it, run the notebooks, keep what's useful.
 
 <div class="oss-grid">
+  <div class="oss-card">
+    <div class="oss-card__head">
+      <span class="oss-card__repo">aws-samples/genai-ml-platform-examples</span>
+    </div>
+    <p class="oss-card__desc">Model governance with MLflow and SageMaker AI Model Registry sync: single-account IAM guardrails, hub-and-spoke central governance via AWS RAM, and a hybrid approval-triggered copy for regulated environments. Companion to <a class="oss-card__inline" href="/posts/2026/09/mlflow-model-registry-sync-part-1">Part 1</a> and <a class="oss-card__inline" href="/posts/2026/09/mlflow-model-registry-sync-part-2">Part 2</a>.</p>
+    <span class="oss-card__tag">Author</span>
+    <a class="oss-card__stretched" href="https://github.com/aws-samples/genai-ml-platform-examples/tree/main/operations/sagemaker-mlflow-model-registry-goverance" aria-label="View repo on GitHub"></a>
+  </div>
   <div class="oss-card">
     <div class="oss-card__head">
       <span class="oss-card__repo">pdifranc/mlflow-deploy-on-sagemaker-hosting</span>

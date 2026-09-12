@@ -47,7 +47,7 @@ These days the same instinct points at **agentic AI**: my current project is a [
   <div class="focus-card">
     <div class="focus-card__icon"><i class="fas fa-pen-nib"></i></div>
     <h3 class="focus-card__title">Write &amp; Speak</h3>
-    <p class="focus-card__body">8 posts on the <a class="focus-card__inline" href="https://aws.amazon.com/blogs/machine-learning/author/frpaolo/">AWS ML Blog</a> and talks at AWS Summits, Cloud Days, and meetups across Europe.</p>
+    <p class="focus-card__body">10 posts on the <a class="focus-card__inline" href="https://aws.amazon.com/blogs/machine-learning/author/frpaolo/">AWS ML Blog</a> and talks at AWS Summits, Cloud Days, and meetups across Europe.</p>
     <a class="focus-card__link focus-card__link--stretched" href="/posts/">Writing &rarr;</a>
   </div>
 </div>
