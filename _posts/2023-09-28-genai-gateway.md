@@ -4,6 +4,9 @@ date: 2023-09-28
 permalink: /posts/2023/09/genai-gateway
 excerpt_separator: <!--more-->
 toc: true
+header:
+ teaser: "posts/genai-gateway/architecture.png"
+ og_image: "posts/genai-gateway/architecture.png"
 tags:
   - generative-ai
   - bedrock
@@ -15,6 +18,8 @@ Every team in the enterprise wants to try foundation models. Nobody wants ten te
 <!--more-->
 
 **Full text [here](https://aws.amazon.com/blogs/machine-learning/create-a-generative-ai-gateway-to-allow-secure-and-compliant-consumption-of-foundation-models/)**
+
+![Architecture: model consumers reach the Gen AI Gateway through an Amplify playground UI or programmatically via Amazon API Gateway with a Lambda authorizer, cache layer, and dispatch Lambdas, with CloudTrail, CloudWatch, usage metrics, and Comprehend for observability and control; a Model Abstraction Layer with Amazon Cognito identity, a model policy store, model engine, and secrets is managed by the model manager and routes to a vendor model registry of SageMaker, Bedrock, and third-party models](/images/posts/genai-gateway/architecture.png)
 
 **What happened since.** When we wrote this in 2023, "LLM gateway" wasn't yet a category — it has since become a standard enterprise pattern, with a whole ecosystem of open-source and commercial gateways implementing the same core ideas: one governed entry point, centralized cost attribution, and compliance controls decoupled from the consuming teams. The architecture reasoning here still holds; the build-vs-buy answer has shifted.
 {: .notice--info}

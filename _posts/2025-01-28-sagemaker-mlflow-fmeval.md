@@ -4,6 +4,9 @@ date: 2025-01-28
 permalink: /posts/2025/01/sagemaker-mlflow-fmeval
 excerpt_separator: <!--more-->
 toc: true
+header:
+ teaser: "posts/sagemaker-mlflow-fmeval/mlflow-architecture.jpg"
+ og_image: "posts/sagemaker-mlflow-fmeval/mlflow-architecture.jpg"
 tags:
   - sagemaker
   - mlflow
@@ -15,6 +18,8 @@ In this post, we show how to use FMEval and Amazon SageMaker to programmatically
 <!--more-->
 
 **Full text [here](https://aws.amazon.com/blogs/machine-learning/track-llm-model-evaluation-using-amazon-sagemaker-managed-mlflow-and-fmeval/), and GitHub repository [here](https://github.com/aws-samples/track-fmeval-evaluation-using-mlflow)**
+
+![Architecture of SageMaker managed MLflow: the MLflow tracking server's compute and metadata live in the SageMaker service account, while the artifacts are stored in an S3 bucket in the customer account](/images/posts/sagemaker-mlflow-fmeval/mlflow-architecture.jpg)
 
 We demonstrate how to combine FMEval with Amazon SageMaker managed MLflow to track and compare LLM evaluation results, enabling systematic model selection and governance for your generative AI workflows.
 

@@ -4,6 +4,9 @@ date: 2022-07-21
 permalink: /posts/2022/07/sagemaker-experiments-pipelines
 excerpt_separator: <!--more-->
 toc: true
+header:
+ teaser: "posts/sagemaker-experiments-pipelines/pipeline-execution.jpg"
+ og_image: "posts/sagemaker-experiments-pipelines/pipeline-execution.jpg"
 tags:
   - sagemaker
   - mlops
@@ -15,6 +18,8 @@ The process of building a machine learning (ML) model is iterative until you fin
 <!--more-->
 
 **Full text [here](https://aws.amazon.com/blogs/machine-learning/organize-your-machine-learning-journey-with-amazon-sagemaker-experiments-and-amazon-sagemaker-pipelines/), and GitHub repository [here](https://github.com/aws-samples/sagemaker-experiments-and-pipelines)**
+
+![SageMaker Pipelines execution graph in SageMaker Studio with three steps — ca-housing-preprocessing, HPTuning, and CreateTopModel — each tracked automatically as a trial component in SageMaker Experiments](/images/posts/sagemaker-experiments-pipelines/pipeline-execution.jpg)
 
 In this post, we take a closer look at the motivation behind having an automated process to track experiments with Amazon SageMaker Experiments and the native capabilities built into Amazon SageMaker Pipelines. We show how the native integration between Pipelines and Experiments allows data scientists to automatically organize, track, and visualize experiments during model development activities.
 

@@ -4,6 +4,9 @@ date: 2022-07-14
 permalink: /posts/2022/07/dvc-sagemaker-experiments
 excerpt_separator: <!--more-->
 toc: true
+header:
+ teaser: "posts/dvc-sagemaker-experiments/architecture.png"
+ og_image: "posts/dvc-sagemaker-experiments/architecture.png"
 tags:
   - sagemaker
   - mlops
@@ -15,6 +18,8 @@ Data scientists often work towards understanding the effects of various data pre
 <!--more-->
 
 **Full text [here](https://aws.amazon.com/blogs/machine-learning/track-your-ml-experiments-end-to-end-with-data-version-control-and-amazon-sagemaker-experiments/), and GitHub repository [here](https://github.com/aws-samples/amazon-sagemaker-experiments-dvc-demo)**
+
+![Architecture: a SageMaker Studio notebook configures Git and DVC in AWS CodeCommit, launches a SageMaker Processing job that stores the versioned dataset in Amazon S3 and syncs its metadata with Git, then launches a SageMaker Training job that pulls the data from S3 and records the Git commit in SageMaker Experiments](/images/posts/dvc-sagemaker-experiments/architecture.png)
 
 This post walks through how to use Data Version Control (DVC) alongside Amazon SageMaker Experiments to track data and code changes together with ML experiment metrics, providing end-to-end traceability for your ML workflows.
 

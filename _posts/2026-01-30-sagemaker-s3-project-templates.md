@@ -4,6 +4,9 @@ date: 2026-01-30
 permalink: /posts/2026/01/sagemaker-s3-project-templates
 excerpt_separator: <!--more-->
 toc: true
+header:
+ teaser: "posts/sagemaker-s3-project-templates/architecture.png"
+ og_image: "posts/sagemaker-s3-project-templates/architecture.png"
 tags:
   - sagemaker
   - mlops
@@ -15,6 +18,8 @@ Managing ModelOps workflows can be complex and time-consuming. Amazon SageMaker 
 <!--more-->
 
 **Full text [here](https://aws.amazon.com/blogs/machine-learning/simplify-modelops-with-amazon-sagemaker-ai-projects-using-amazon-s3-based-templates/), and GitHub repository [here](https://github.com/aws-samples/sagemaker-custom-project-templates/tree/main/s3_templates)**
+
+![Architecture: a platform administrator authors SageMaker Project CloudFormation templates and uploads them to an Amazon S3 bucket with an S3 policy and CORS configuration; templates tagged with sagemaker:studio-visibility appear in SageMaker Projects inside SageMaker AI Studio, where data scientists select and deploy a project that provisions a Git repository, code pipeline, SageMaker pipeline, endpoint, and Lambda functions](/images/posts/sagemaker-s3-project-templates/architecture.png)
 
 This post explores how you can use Amazon S3-based templates to simplify ModelOps workflows, walks through the key benefits compared to using Service Catalog approaches, and demonstrates how to create a custom ModelOps solution that integrates with GitHub and GitHub Actions — giving your team one-click provisioning of a fully functional ML environment.
 
